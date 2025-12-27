@@ -110,7 +110,7 @@ export let fields: Field[] = [
         'skills': [
             {
                 'id': 1,
-                'name': 'We Security',
+                'name': 'Web Security',
                 'logo': WebSecurity,
                 'url': 'https://www.geeksforgeeks.org/ethical-hacking/web-security-con}iderations/',
             }
@@ -137,17 +137,18 @@ export let fields: Field[] = [
             }
             ,
             {
-                'id': 5,
-                'name': 'Information Security',
-                'logo': InformationSecurity,
-                'url': 'https://www.geeksforgeeks.org/computer-networks/what-is-information-security/',
-            }
-            ,
-            {
                 'id': 6,
                 'name': 'Networking',
                 'logo': Networking,
                 'url': 'https://www.geeksforgeeks.org/computer-networks/basics-computer-networking/',
+            }
+
+            ,
+            {
+                'id': 5,
+                'name': 'Information Security',
+                'logo': InformationSecurity,
+                'url': 'https://www.geeksforgeeks.org/computer-networks/what-is-information-security/',
             }
             ,
             {

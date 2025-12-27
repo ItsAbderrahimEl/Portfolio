@@ -3,4 +3,5 @@ export interface Project {
     url: string;
     name: string;
     pattern: string;
+    description: string;
 }

@@ -1,56 +1,33 @@
-<script setup lang="ts">
-    //Components
-    import AboutSection from '@/components/AboutSection.vue';
-    import FieldsSection from '@/components/FieldsSection.vue';
-    import ContactSection from '@/components/ContactSection.vue';
-    import LandingSection from '@/components/LandingSection.vue';
-    import WhyBothSection from '@/components/WhyBothSection.vue';
-    import ProjectsSection from '@/components/ProjectsSection.vue';
-    import ExperienceSection from '@/components/ExperienceSection.vue';
-
-    //Data
-    import {user} from '@/data/User'
-    import {contacts} from '@/data/Contacts'
-    import {fields} from '@/data/Fields'
-    import {experiences} from '@/data/Experiences'
-    import {projects} from '@/data/Projects'
+<script
+    setup
+    lang="ts"
+>
+    import Intro from "@/components/Intro.vue";
+    import About from "@/components/About.vue";
+    import Skills from "@/components/Skills.vue";
+    import WhyBoth from "@/components/WhyBoth.vue";
+    import Projects from "@/components/Projects.vue";
+    import Experiences from "@/components/Experience.vue";
+    import Contact from "@/components/Contact.vue";
+    import Education from "@/components/Education.vue";
 </script>
 
 <template>
-    <div class="mountain_pattern overflow-x-hidden overflow-y-auto flex flex-col h-screen w-screen items-center gap-y-10 md:gap-y-0 md:gap-x-40 md:flex-row md:overflow-x-scroll md:px-40">
-        <LandingSection
-            :user
-            :contacts
-        />
+    <div class="mountain_pattern min-h-screen text-white p-5 space-y-20 md:space-y-10 md:flex md:flex-col md:items-center md:justify-center">
+        <Intro class="mt-20"/>
 
-        <AboutSection
-            title="About"
-            :biography="user.biography"
-        />
+        <About />
 
-        <FieldsSection
-            :fields
-            title="In What I'm Skilled"
-        />
+        <WhyBoth />
 
-        <WhyBothSection
-            title="Why Both?"
-            :whyBothSection="user.why_both_section"
-        />
+        <Experiences />
 
-        <ProjectsSection
-            :projects
-            title="Projects"
-        />
+        <Projects />
 
-        <ExperienceSection
-            :experiences
-            title="Experiences"
-        />
+        <Education />
 
-        <ContactSection
-            :contacts
-            title="Contact Me"
-        />
+        <Skills />
+
+        <Contact />
     </div>
 </template>

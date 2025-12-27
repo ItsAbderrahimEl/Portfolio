@@ -6,36 +6,37 @@ export let user: User = {
     'intro': 'It’s so nice to meet you. Join me on a quick journey to get to know me!',
     'expertise': "I'm a Full-Stack Developer and Penetration Tester",
     'biography': `<p>
-    I'm a
-    <span class="font-bold">Penetration Tester</span>
-    and
-    <span class="font-bold">Full-stack Developer</span>
-    with a passion for web applications and security.
+    I am a <span class="font-bold">Penetration Tester</span> and
+    <span class="font-bold">Full-Stack Developer</span> specializing in building and securing modern web applications.
+</p>
 
-    I have significant achievements in both fields, including ranking among the top 1% in Hack The Box Academy,
-    along with building numerous web applications designed with security, usability, and maintainability in mind.
-</p> <p>
-    Creating reusable components and ensuring clean, modern designs are always key priorities for me in web
-    development.</p> <p>
-    I enjoy learning new things and am always excited about discovering new projects to create or systems to break into.
-    I'm a Muslim currently living in Morocco and would love the opportunity to work with you—or share a cup of coffee,
-    whichever you prefer.
-</p>`,
-    'why_both_section': `<p
-    class="underline underline-offset-4"
->
-    I've asked myself this question many times: why do I want to specialize in both Web Development
-    and Penetration Testing? Isn't that too much?
-</p> <p>
-    Well, that's a great question. To answer it, we first need to understand the significant overlap
-    between the skills required for both fields. For instance, knowing how to develop web applications
-    gives you a huge advantage when it comes to testing them. Similarly, having knowledge of penetration
-    testing
-    and cybersecurity lets you identify common vulnerabilities in modern applications,
-    which, in turn, helps you build more secure and reliable web applications.
-</p><p>
-    So yes, it might seem like a lot, but I believe I’m capable of excelling at both. With determination
-    and perseverance.
-    <span class="font-bold">I am determined to achieve this goal.</span>
+<p>
+    I design and develop secure, scalable systems with a strong emphasis on code quality, performance, and maintainability.
+</p>
+<p> My work combines offensive security techniques with solid software engineering practices. </p>
+<p>
+    I focus on clean architecture, reusable components, and modern user-centered design to deliver reliable and auditable solutions.
+</p>
+
+<p>
+    I am a continuous learner based in Morocco, open to professional opportunities, collaboration, and meaningful technical discussions.
+</p>
+`,
+    'why_both_section': `<p class="underline underline-offset-4">
+    I am often asked why I chose to specialize in both Web Development and Penetration Testing.
+</p>
+
+<p>
+    The answer lies in the strong overlap between these two disciplines and how they reinforce each other.
+</p>
+
+<p>
+    Understanding how applications are built provides a clear advantage when testing them, while security
+    expertise enables me to identify vulnerabilities early and design more secure, reliable systems.
+</p>
+
+<p>
+    While demanding, this dual focus aligns with my capabilities and long-term goals.
+    <span class="font-bold">I am fully committed to excelling in both areas.</span>
 </p>`
 }
