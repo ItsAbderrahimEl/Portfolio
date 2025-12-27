@@ -3,8 +3,8 @@ import type {User} from '@/types/User';
 export let user: User = {
     'id': 1,
     'name': 'Abderrahim El Ouariachi',
-    'intro': 'It’s so nice to meet you. Join me on a quick journey to get to know me!',
-    'expertise': "I'm a Full-Stack Developer and Penetration Tester",
+    'intro': 'It’s a pleasure to meet you. Allow me to guide you through a brief journey that offers insight into who I am and my story.',
+    'expertise': "A Full-Stack Developer and Penetration Tester",
     'biography': `<p>
     I am a <span class="font-bold">Penetration Tester</span> and
     <span class="font-bold">Full-Stack Developer</span> specializing in building and securing modern web applications.
@@ -22,7 +22,7 @@ export let user: User = {
     I am a continuous learner based in Morocco, open to professional opportunities, collaboration, and meaningful technical discussions.
 </p>
 `,
-    'why_both_section': `<p class="underline underline-offset-4">
+    'why_both_section': `<p class="underline underline-offset-4 mb-3">
     I am often asked why I chose to specialize in both Web Development and Penetration Testing.
 </p>
 

@@ -9,7 +9,7 @@
 </script>
 
 <template>
-    <div class="relative flex flex-col space-y-5 md:w-10/12 b">
+    <div class="relative flex flex-col space-y-5 md:space-y-10 md:w-3/4 md:items-center">
         <slot />
     </div>
 </template>

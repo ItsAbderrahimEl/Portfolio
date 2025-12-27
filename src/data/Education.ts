@@ -13,10 +13,19 @@ export let educations: Education[] = [
         site: 'https://academy.hackthebox.com/',
         logo: HackTheBoxLogo,
         description: `
-    <li>Completed hands-on training in penetration testing methodologies and attack frameworks</li>
-    <li>Practiced exploiting real-world vulnerabilities across web applications, networks, and systems</li>
-    <li>Strengthened skills in reconnaissance, enumeration, privilege escalation, and post-exploitation</li>
-  `
+<li>
+    Completed intensive, hands-on training covering industry-standard penetration testing methodologies, attack frameworks, and ethical hacking principles.
+</li>
+
+<li>
+    Gained practical experience identifying and exploiting real-world vulnerabilities across web applications, network infrastructures, and operating systems in controlled lab environments.
+</li>
+
+<li>
+    Strengthened offensive security skills in reconnaissance, enumeration, exploitation, privilege escalation, and post-exploitation, with an emphasis on systematic assessment and risk evaluation.
+</li>
+`
+
     }
     ,
     {
@@ -27,10 +36,19 @@ export let educations: Education[] = [
         site: 'https://laracasts.com/',
         logo: LaracastsLogo,
         description: `
-    <li>Advanced Laravel development with a focus on clean architecture and maintainable code</li>
-    <li>Built modern full-stack applications using Laravel, Inertia.js, and Vue.js</li>
-    <li>Implemented automated testing using Pest, along with best practices for reliable and scalable applications</li>
-  `
+<li>
+    Advanced Laravel development with a strong emphasis on clean architecture, separation of concerns, and writing maintainable, testable, and scalable codebases.
+</li>
+
+<li>
+    Designed and built modern full-stack applications using Laravel in combination with Inertia.js and Vue.js, enabling seamless server-driven applications with rich, reactive user interfaces.
+</li>
+
+<li>
+    Implemented automated testing strategies using Pest, applying industry best practices to ensure application reliability, reduce regressions, and support long-term scalability.
+</li>
+`
+
     },
     {
         id: 3,
@@ -40,10 +58,19 @@ export let educations: Education[] = [
         site: 'http://esto.ump.ma/',
         logo: ESTOLogo,
         description: `
-    <li>Built a solid foundation in core computer science concepts and problem-solving</li>
-    <li>Developed practical experience with PHP, JavaScript, Java, and C</li>
-    <li>Gained knowledge of computer networking and Linux-based operating systems</li>
-  `
+<li>
+    Built a strong foundation in core computer science principles, including algorithms, data structures, and systematic problem-solving techniques.
+</li>
+
+<li>
+    Developed hands-on programming experience across multiple languages—PHP, JavaScript, Java, and C—applying them to academic projects and practical software development scenarios.
+</li>
+
+<li>
+    Acquired solid knowledge of computer networking fundamentals and Linux-based operating systems, with practical exposure to system usage, configuration, and command-line environments.
+</li>
+`
+
     },
     {
         id: 4,
@@ -53,9 +80,18 @@ export let educations: Education[] = [
         site: '#',
         logo: BookLogo,
         description: `
-    <li>Reading extensively across penetration testing, web development, and design</li>
-    <li>Practicing martial arts, self-defense, and other discipline-building techniques</li>
-    <li>Maintaining a strong habit of reading Islamic books, valuing character and faith alongside technical expertise</li>
-  `
+<li>
+    Reading extensively on topics related to penetration testing, web development, and design in order to continuously expand technical knowledge and stay current with evolving industry trends.
+</li>
+
+<li>
+    Practicing martial arts and self-defense disciplines to build physical fitness, mental resilience, focus, and personal discipline.
+</li>
+
+<li>
+    Maintaining a consistent habit of reading Islamic literature, placing strong value on character development, ethics, and faith alongside technical and professional growth.
+</li>
+`
+
     }
 ]

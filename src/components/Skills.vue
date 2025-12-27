@@ -2,7 +2,6 @@
     setup
     lang="ts"
 >
-
     import Title from "@/components/Title.vue";
     import {fields} from "@/data/Fields.ts"
     import Container from "@/components/Container.vue";
@@ -11,16 +10,16 @@
 <template>
     <Container>
         <Title title="Skills" />
-        <div class="space-y-5">
+        <div class="space-y-10 md:text-lg">
             <template
                 v-for="field in fields"
                 :key="field.id"
             >
                 <div class="flex flex-col">
-                    <p class="text-xl">
-                        {{ field.name }}:
+                    <p class="text-2xl">
+                        {{ field.name }}
                     </p>
-                    <div class="grid grid-cols-4 md:grid-cols-6 gap-x-2 pt-5">
+                    <div class="grid grid-cols-4 md:grid-cols-4 gap-x-2 md:gap-0 pt-5">
                         <template
                             :key="skill.id"
                             v-for="skill in field.skills"

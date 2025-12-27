@@ -2,7 +2,6 @@
     setup
     lang="ts"
 >
-
     import Title from "@/components/Title.vue";
     import {contacts} from "@/data/Contacts";
     import Container from "@/components/Container.vue";
@@ -13,9 +12,9 @@
         <Title title="Contact Me" />
         <div class="space-y-5 md:flex md:flex-col md:items-center md:mb-10">
             <p class="text-center md:max-w-2/3">
-                Thank you for joining me on this journey! I hope you enjoyed exploring and learning more about
-                me. If you have any questions or simply
-                want to connect, don't hesitate to reach out—I’d love to hear from you!
+                Thank you for taking the time to join me on this journey. I hope this overview has provided meaningful
+                insight into my background, skills, and interests. Should you have any
+                questions or wish to connect for discussion or collaboration, please feel free to reach out—I would be glad to engage further.
             </p>
 
             <div class="flex flex-wrap gap-x-20 gap-y-5 md:max-w-70 items-center justify-center">

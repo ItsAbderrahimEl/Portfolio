@@ -11,7 +11,7 @@
     <Container>
         <Title title="Why Both?" />
         <p
-            class="space-y-5"
+            class="space-y-5 md:space-y-1 md:text-lg"
             v-html="user.why_both_section"
         ></p>
     </Container>

@@ -10,12 +10,12 @@
 <template>
     <Container>
         <Title title="Educations" />
-        <div class="space-y-10 p-5">
+        <div class="space-y-10 md:space-y-15 md:text-lg md:p-5">
             <template
                 v-for="education in educations"
                 :key="education.id"
             >
-                <div class="mt-5 min-w-1/2 md:max-w-3/4 space-y-3">
+                <div class="space-y-3">
                     <a
                         :href="education.site"
                         target="_blank"
@@ -36,7 +36,7 @@
                     </a>
 
                     <ul
-                        class="list-inside list-disc space-y-2 text-sm md:pl-5"
+                        class="list-inside list-disc space-y-2 text-sm pl-5 md:pl-0"
                         v-html="education.description"
                     />
                 </div>
