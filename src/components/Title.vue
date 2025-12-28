@@ -10,7 +10,7 @@
 
 <template>
 
-    <p class="block text-3xl md:text-4xl md:text-center font-bold">
+    <p class="block text-3xl md:text-4xl  font-bold">
         {{ title }}
     </p>
 

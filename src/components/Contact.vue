@@ -11,13 +11,13 @@
     <Container>
         <Title title="Contact Me" />
         <div class="space-y-5 md:flex md:flex-col md:items-center md:mb-10">
-            <p class="text-center md:max-w-2/3">
+            <p class="text-center md:text-lg md:max-w-2/3">
                 Thank you for taking the time to join me on this journey. I hope this overview has provided meaningful
                 insight into my background, skills, and interests. Should you have any
-                questions or wish to connect for discussion or collaboration, please feel free to reach out—I would be glad to engage further.
+                questions or wish to connect for discussion or collaboration, please feel free to reach out—I would be glad to talk further.
             </p>
 
-            <div class="flex flex-wrap gap-x-20 gap-y-5 md:max-w-70 items-center justify-center">
+            <div class="flex flex-wrap gap-x-20 gap-y-5 md:gap-x-40 md:max-w-70 items-center justify-center">
                 <a
                     :key="contact.id"
                     :href="contact.url"

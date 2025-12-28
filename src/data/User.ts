@@ -3,23 +3,26 @@ import type {User} from '@/types/User';
 export let user: User = {
     'id': 1,
     'name': 'Abderrahim El Ouariachi',
-    'intro': 'It’s a pleasure to meet you. Allow me to guide you through a brief journey that offers insight into who I am and my story.',
+    'intro': 'It’s a pleasure to meet you. Allow me to guide you through a brief journey that offers insight into who I am and what I do.',
     'expertise': "A Full-Stack Developer and Penetration Tester",
     'biography': `<p>
-    I am a <span class="font-bold">Penetration Tester</span> and
-    <span class="font-bold">Full-Stack Developer</span> specializing in building and securing modern web applications.
+    I’m a Penetration Tester and Full-Stack Developer who enjoys building and protecting modern web applications.
 </p>
 
 <p>
-    I design and develop secure, scalable systems with a strong emphasis on code quality, performance, and maintainability.
-</p>
-<p> My work combines offensive security techniques with solid software engineering practices. </p>
-<p>
-    I focus on clean architecture, reusable components, and modern user-centered design to deliver reliable and auditable solutions.
+    I work on creating systems that are secure, reliable, and easy to maintain, with careful attention to performance and code quality.
 </p>
 
 <p>
-    I am a continuous learner based in Morocco, open to professional opportunities, collaboration, and meaningful technical discussions.
+    My experience combines security testing with hands-on development, which helps me understand both how applications work and how they can be improved.
+</p>
+
+<p>
+    I care about writing clean code, reusing components where possible, and designing interfaces that feel clear and intuitive for users.
+</p>
+
+<p>
+    I’m a continuous learner based in Morocco, open to new opportunities, collaboration, and meaningful conversations.
 </p>
 `,
     'why_both_section': `<p class="underline underline-offset-4 mb-3">

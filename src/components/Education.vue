@@ -10,7 +10,7 @@
 <template>
     <Container>
         <Title title="Educations" />
-        <div class="space-y-10 md:space-y-15 md:text-lg md:p-5">
+        <div class=" w-full space-y-10 md:space-y-15 md:text-lg md:p-5">
             <template
                 v-for="education in educations"
                 :key="education.id"
@@ -36,7 +36,7 @@
                     </a>
 
                     <ul
-                        class="list-inside list-disc space-y-2 text-sm pl-5 md:pl-0"
+                        class="list-inside list-disc space-y-2 text-sm md:text-base pl-5 md:pl-0"
                         v-html="education.description"
                     />
                 </div>

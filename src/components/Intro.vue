@@ -7,18 +7,19 @@
 </script>
 
 <template>
-    <Container class="mt-10 md:mt-0 md:h-screen md:flex md:items-center md:justify-center">
+    <Container class=" md:mt-0 h-screen flex items-center justify-center">
 
         <p class="text-2xl md:text-6xl font-bold">{{ user.name }}</p>
 
-        <p class="text-lg md:text-2xl">{{ user.expertise }}</p>
+        <p class="text-lg md:text-2xl text-center md:text-left">{{ user.expertise }}</p>
 
-        <p class="mt-10 text-sm md:text-base">{{ user.intro }}</p>
+        <p class="mt-10 text-center md:text-left text-sm md:text-base">{{ user.intro }}</p>
 
-        <div class="flex gap-x-5 mt-5 justify-end pr-10">
+        <div class="flex gap-x-5 mt-5">
             <a
                 href="/Portfolio/Abderrahim-El-Ouariachi-CV-English.pdf"
                 target="_blank"
+                title="Resume"
             >
                 <img
                     src="@/assets/contact/resume.png"
@@ -30,6 +31,7 @@
             <a
                 href="https://github.com/ItsAbderrahimEl"
                 target="_blank"
+                title="Github Account"
             >
                 <img
                     src="@/assets/contact/github.svg"

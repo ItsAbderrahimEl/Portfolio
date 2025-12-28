@@ -16,10 +16,10 @@
                 :key="field.id"
             >
                 <div class="flex flex-col">
-                    <p class="text-2xl">
+                    <p class="text-2xl md:ml-[10%] md:mb-5">
                         {{ field.name }}
                     </p>
-                    <div class="grid grid-cols-4 md:grid-cols-4 gap-x-2 md:gap-0 pt-5">
+                    <div class="grid grid-cols-4 md:grid-cols-4 md:max-w-1/2 md:mx-auto gap-x-5 md:gap-x-20 md:gap-y-10 pt-5">
                         <template
                             :key="skill.id"
                             v-for="skill in field.skills"

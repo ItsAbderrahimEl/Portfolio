@@ -13,8 +13,8 @@
 </script>
 
 <template>
-    <div class="mountain_pattern min-h-screen text-white p-5 space-y-20 md:space-y-30 md:flex md:flex-col md:items-center md:justify-center">
-        <Intro/>
+    <div class="mountain_pattern relative min-h-screen text-white p-5 space-y-20 md:space-y-30 md:flex md:flex-col md:items-center md:justify-center">
+        <Intro />
 
         <About />
 

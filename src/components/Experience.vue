@@ -37,7 +37,7 @@
                     </a>
 
                     <ul
-                        class="list-inside list-disc space-y-2 text-sm pl-3 md:pl-0"
+                        class="list-inside list-disc space-y-2 text-sm md:text-base pl-3 md:pl-0"
                         v-html="experience.description"
                     />
                 </div>
