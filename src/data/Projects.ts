@@ -58,7 +58,7 @@ export let projects: Project[] = [
         'description': `
             Is a modern, performance-focused personal portfolio website built with Vue 3, Vite, Tailwind CSS, and TypeScript to showcase skills, projects, and professional experience.
         `,
-        'url': 'https://itsabderrahimel.github.io/Portfolio/',
+        'url': 'https://github.com/ItsAbderrahimEl/Portfolio',
     }
 
 ]

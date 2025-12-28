@@ -47,14 +47,14 @@ export let educations: Education[] = [
     },
     {
         id: 4,
-        institution: '',
+        institution: 'Library',
         studied: 'Avid and Lifelong Reader',
         duration: 'Lifelong',
         site: '#',
         logo: BookLogo,
         description: `
     <li>Reading extensively across penetration testing, web development, and design</li>
-    <li>Practicing martial arts, self-defense, and other discipline-building techniques</li>
+    <li>Studying and practising martial arts, self-defense, and other discipline-building techniques</li>
     <li>Maintaining a strong habit of reading Islamic books, valuing character and faith alongside technical expertise</li>
   `
     }
