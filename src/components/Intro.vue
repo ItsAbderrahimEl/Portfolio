@@ -9,7 +9,7 @@
 <template>
     <Container class=" md:mt-0 h-screen flex items-center justify-center">
 
-        <p class="text-2xl md:text-6xl font-bold">{{ user.name }}</p>
+        <p class="text-2xl text-center md:text-6xl font-bold">{{ user.name }}</p>
 
         <p class="text-lg md:text-2xl text-center md:text-left">{{ user.expertise }}</p>
 
