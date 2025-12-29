@@ -3,7 +3,6 @@ import logo3 from '@/assets/contact/email.svg'
 import logo4 from '@/assets/contact/phone.svg'
 import logo2 from '@/assets/contact/github.svg'
 
-
 export let contacts: Contact[] = [
     {
         'id': 2,

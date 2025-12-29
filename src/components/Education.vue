@@ -16,11 +16,7 @@
                 :key="education.id"
             >
                 <div class="space-y-3">
-                    <a
-                        :href="education.site"
-                        target="_blank"
-                        class="flex space-x-5"
-                    >
+                    <div class="flex space-x-5">
                         <img
                             class="size-15 mt-2 rounded"
                             :src="education.logo"
@@ -29,11 +25,18 @@
                         <div class="flex flex-col">
                             <div class="font-bold">{{ education.studied }}</div>
                             <div class="space-y-2 text-sm md:space-x-5">
-                                <div class="md:inline underline underline-offset-4">{{ education.institution }}</div>
+                                <a
+                                    :href="education.site"
+                                    target="_blank"
+                                >
+                                    <div class="md:inline underline underline-offset-4">
+                                        {{ education.institution }}
+                                    </div>
+                                </a>
                                 <div class="md:inline">{{ education.duration }}</div>
                             </div>
                         </div>
-                    </a>
+                    </div>
 
                     <ul
                         class="list-inside list-disc space-y-2 text-sm md:text-base pl-5 md:pl-0"

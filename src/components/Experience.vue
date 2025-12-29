@@ -16,9 +16,7 @@
                 :key="experience.id"
             >
                 <div class="space-y-3">
-                    <a
-                        :href="experience.company_url"
-                        target="_blank"
+                    <div
                         class="flex space-x-5"
                     >
                         <img
@@ -29,12 +27,17 @@
                         <div class="flex flex-col">
                             <div class="font-bold">{{ experience.role }}</div>
                             <div class=" space-x-2 text-sm">
-                                <span class="underline underline-offset-4">{{ experience.company_name }}</span>
+                                <a
+                                    :href="experience.company_url"
+                                    target="_blank"
+                                >
+                                    <span class="underline underline-offset-4">{{ experience.company_name }}</span>
+                                </a>
                                 <span>{{ experience.type }}</span>
                                 <div class="mt-2"> {{ experience.duration }}</div>
                             </div>
                         </div>
-                    </a>
+                    </div>
 
                     <ul
                         class="list-inside list-disc space-y-2 text-sm md:text-base pl-3 md:pl-0"

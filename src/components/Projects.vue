@@ -5,6 +5,18 @@
     import {projects} from "@/data/Projects.ts";
     import Title from "@/components/Title.vue";
     import Container from "@/components/Container.vue";
+    import {defineSoftwareApp} from "@vueuse/schema-org";
+
+    projects.forEach(project => {
+        defineSoftwareApp({
+            url: project.url,
+            name: project.name,
+            operatingSystem: "Linux",
+            images: [project.pattern],
+            description: project.description,
+            applicationCategory: project.applicationCategory,
+        })
+    })
 </script>
 
 <template>
@@ -16,25 +28,23 @@
                 :key="project.id"
             >
                 <div>
-                    <a
-                        :href="project.url"
-                        target="_blank"
-                        class=""
-                    >
-                        <img
-                            :src="project.pattern"
-                            alt="Project Image"
-                            class="w-full h-[15rem] md:max-w-90  rounded-xl object-cover "
-                        />
+                    <img
+                        :src="project.pattern"
+                        alt="Project Image"
+                        class="w-full h-[15rem] md:max-w-90  rounded-xl object-cover -z-10"
+                    />
 
-                        <div class="ml-2 mt-2 md:max-w-90">
-                            <p class="inline underline text-lg font-bold underline-offset-4">
-                                {{ project.name }}
-                            </p>
+                    <div class="ml-2 mt-2 md:max-w-90">
+                        <a
+                            :href="project.url"
+                            target="_blank"
+                            class="inline underline text-lg font-bold underline-offset-4"
+                        >
+                            {{ project.name }}
+                        </a>
 
-                            <p class="inline"> — {{ project.description }}</p>
-                        </div>
-                    </a>
+                        <p class="inline"> — {{ project.description }}</p>
+                    </div>
                 </div>
 
             </template>

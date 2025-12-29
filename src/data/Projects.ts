@@ -10,6 +10,7 @@ export let projects: Project[] = [
         'id': 1,
         'name': 'PenGate',
         'pattern': Pattern1,
+        'applicationCategory': 'SecurityApplication',
         'description': `
              Is a collaborative forum for penetration testers to share knowledge and techniques, built with Laravel, Vue.js, and Inertia.js in a Dockerized environment using Laravel Sail.
         `,
@@ -19,6 +20,7 @@ export let projects: Project[] = [
         'id': 2,
         'name': 'Guess Royal Game CTF',
         'pattern': Pattern2,
+        'applicationCategory': 'SecurityApplication',
         'description': `
             Is a Laravel-based guessing game designed as a hard CTF challenge demonstrating second-order SQL injection risks, emphasizing secure query handling and safe data persistence.
         `,
@@ -28,6 +30,7 @@ export let projects: Project[] = [
         'id': 3,
         'name': 'Cinematic Odyssey',
         'pattern': Pattern3,
+        'applicationCategory': 'EntertainmentApplication',
         'description': `
              Is a web app that lets users browse and manage favorite movies, TV shows, and actors using TMDB data, built with Laravel, Livewire, and Tailwind CSS for a responsive, interactive experience.
         `,
@@ -37,6 +40,7 @@ export let projects: Project[] = [
         'id': 4,
         'name': 'BirdBoard',
         'pattern': Pattern4,
+        'applicationCategory': 'UtilitiesApplication',
         'description': `
             Is a project and task collaboration platform built with Laravel, Blade, Tailwind CSS, and Alpine.js, enabling teams to manage projects, track tasks, and collaborate with a real-time activity feed.
         `,
@@ -46,6 +50,7 @@ export let projects: Project[] = [
         'id': 5,
         'name': 'Code Katas',
         'pattern': Pattern5,
+        'applicationCategory': 'DeveloperApplication',
         'description': `
             Is a collection of PHP exercises using PHPUnit to practice Test-Driven Development, improve problem-solving, and build strong habits in clean, testable code.
         `,
@@ -55,6 +60,7 @@ export let projects: Project[] = [
         'id': 6,
         'name': 'My Portfolio',
         'pattern': Pattern6,
+        'applicationCategory': 'ReferenceApplication',
         'description': `
             Is a modern, performance-focused personal portfolio website built with Vue 3, Vite, Tailwind CSS, and TypeScript to showcase skills, projects, and professional experience.
         `,
