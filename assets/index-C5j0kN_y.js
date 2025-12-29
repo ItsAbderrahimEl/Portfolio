@@ -7,7 +7,7 @@
 </p>
 
 <p>
-    My experience combines security testing with hands-on development, which helps me understand both how applications work and how they can be improved.
+    My experience combines security testing with hands-on development, which helps me understand both how applications work and how they can be attacked.
 </p>
 
 <p>
