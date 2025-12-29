@@ -17,7 +17,7 @@
                 questions or wish to connect for discussion or collaboration, please feel free to reach out—I would be glad to talk further.
             </p>
 
-            <div class="flex flex-wrap gap-x-20 gap-y-5 md:gap-x-40 md:max-w-70 items-center justify-center">
+            <div class="flex flex-wrap gap-x-20 gap-y-5 md:gap-x-40 md:max-w-70 mt-5 items-center justify-center">
                 <a
                     :key="contact.id"
                     :href="contact.url"

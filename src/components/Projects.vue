@@ -22,7 +22,7 @@
 <template>
     <Container>
         <Title title="Projects" />
-        <div class="space-y-10 md:grid md:grid-cols-2 md:gap-x-30 p-5 md:mt-5">
+        <div class="space-y-10 md:grid md:grid-cols-2 md:gap-x-30 md:p-5 md:mt-5">
             <template
                 v-for="project in projects"
                 :key="project.id"
@@ -31,7 +31,7 @@
                     <img
                         :src="project.pattern"
                         alt="Project Image"
-                        class="w-full h-[15rem] md:max-w-90  rounded-xl object-cover -z-10"
+                        class="w-full h-[15rem] md:max-w-90  rounded-xl object-cover"
                     />
 
                     <div class="ml-2 mt-2 md:max-w-90">
