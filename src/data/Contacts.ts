@@ -20,7 +20,7 @@ export let contacts: Contact[] = [
         'id': 4,
         'name': "+212623960018",
         'logo': logo4,
-        'url': '#',
+        'url': 'tel:+212623960018',
     }
 ]
 
