@@ -15,9 +15,9 @@ export let experiences: Experience[] = [
         'logo': HackTheBoxLogo,
         'type': 'Practice',
         'description': `
-    <li>Participate in Capture The Flag (CTF) challenges to enhance cybersecurity and penetration testing skills</li>
-    <li>Practice exploiting real-world vulnerabilities across web, network, and system targets</li>
-    <li>Collaborate with the HackTheBox community to share techniques and learn advanced attack methodologies</li>
+    <li>Participate in Capture The Flag (CTF) challenges to enhance cybersecurity and penetration testing skills.</li>
+    <li>Practice exploiting real-world vulnerabilities across web, network, and system targets.</li>
+    <li>Collaborate with the HackTheBox community to share techniques and learn advanced attack methodologies.</li>
 `
     },
     {
