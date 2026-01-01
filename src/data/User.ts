@@ -4,7 +4,7 @@ export let user: User = {
     'id': 1,
     'name': 'Abderrahim El Ouariachi',
     'intro': 'It’s a pleasure to meet you. Allow me to guide you through a brief journey that offers insight into who I am and what I do.',
-    'expertise': "A Full-Stack Developer and Penetration Tester",
+    'expertise': "A Full-Stack Laravel Developer and Penetration Tester",
     'biography': `<p>
     I'm a person who enjoys building and protecting modern web applications.
 </p>

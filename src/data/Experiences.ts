@@ -29,7 +29,7 @@ export let experiences: Experience[] = [
         'logo': logo1,
         'type': 'Internship',
         'description': `<li>
-    Supervised and coordinated a student team to deliver a full-stack web application for the Higher School of Technology in Oujda, Morocco.
+    Supervised and coordinated an intern team to deliver a full-stack web application for the Higher School of Technology in Oujda, Morocco.
 </li>
 
 <li>
