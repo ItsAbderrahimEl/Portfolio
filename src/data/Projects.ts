@@ -12,7 +12,7 @@ export let projects: Project[] = [
         'pattern': Pattern1,
         'applicationCategory': 'SecurityApplication',
         'description': `
-             Is a collaborative forum for penetration testers to share knowledge and techniques, built with Laravel, Vue.js, and Inertia.js in a Dockerized environment using Laravel Sail.
+             A collaborative forum for penetration testers to share knowledge and techniques, built with Laravel, Vue.js, and Inertia.js in a Dockerized environment using Laravel Sail.
         `,
         'url': 'https://itsabderrahimel.github.io/PenGate/',
     },
@@ -22,7 +22,7 @@ export let projects: Project[] = [
         'pattern': Pattern2,
         'applicationCategory': 'SecurityApplication',
         'description': `
-            Is a Laravel-based guessing game designed as a hard CTF challenge demonstrating second-order SQL injection risks, emphasizing secure query handling and safe data persistence.
+            A Laravel-based guessing game designed as a hard CTF challenge demonstrating second-order SQL injection risks, emphasizing secure query handling and safe data persistence.
         `,
         'url': 'https://itsabderrahimel.github.io/GuessRoyalGame_CTF/',
     },
@@ -32,7 +32,7 @@ export let projects: Project[] = [
         'pattern': Pattern3,
         'applicationCategory': 'EntertainmentApplication',
         'description': `
-             Is a web app that lets users browse and manage favorite movies, TV shows, and actors using TMDB data, built with Laravel, Livewire, and Tailwind CSS for a responsive, interactive experience.
+             A web app that lets users browse and manage favorite movies, TV shows, and actors using TMDB data, built with Laravel, Livewire, and Tailwind CSS for a responsive, interactive experience.
         `,
         'url': 'https://github.com/ItsAbderrahimEl/Cinematic_Odyssey',
     },
@@ -42,7 +42,7 @@ export let projects: Project[] = [
         'pattern': Pattern4,
         'applicationCategory': 'UtilitiesApplication',
         'description': `
-            Is a project and task collaboration platform built with Laravel, Blade, Tailwind CSS, and Alpine.js, enabling teams to manage projects, track tasks, and collaborate with a real-time activity feed.
+            A project and task collaboration platform built with Laravel, Blade, Tailwind CSS, and Alpine.js, enabling teams to manage projects, track tasks, and collaborate with a real-time activity feed.
         `,
         'url': 'https://itsabderrahimel.github.io/BirdBoard/',
     },
@@ -52,7 +52,7 @@ export let projects: Project[] = [
         'pattern': Pattern5,
         'applicationCategory': 'DeveloperApplication',
         'description': `
-            Is a collection of PHP exercises using PHPUnit to practice Test-Driven Development, improve problem-solving, and build strong habits in clean, testable code.
+            A collection of PHP exercises using PHPUnit to practice Test-Driven Development, improve problem-solving, and build strong habits in clean, testable code.
         `,
         'url': 'https://itsabderrahimel.github.io/CodeKatas/',
     },
@@ -62,7 +62,7 @@ export let projects: Project[] = [
         'pattern': Pattern6,
         'applicationCategory': 'ReferenceApplication',
         'description': `
-            Is a modern, performance-focused personal portfolio website built with Vue 3, Vite, Tailwind CSS, and TypeScript to showcase skills, projects, and professional experience.
+            A modern, performance-focused personal portfolio website built with Vue 3, Vite, Tailwind CSS, and TypeScript to showcase skills, projects, and professional experience.
         `,
         'url': 'https://github.com/ItsAbderrahimEl/Portfolio',
     }
