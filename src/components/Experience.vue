@@ -9,8 +9,8 @@
 
 <template>
     <Container>
-        <Title title="Experiences" />
-        <div class="space-y-10 md:space-y-15 md:text-lg md:flex md:flex-wrap md:p-5 md:gap-x-2">
+        <Title title="My Experiences" />
+        <div class="space-y-10 md:space-y-15 md:text-lg md:flex md:flex-wrap md:p-5 md:gap-x-2 ">
             <template
                 v-for="experience in experiences"
                 :key="experience.id"

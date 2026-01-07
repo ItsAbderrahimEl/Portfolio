@@ -1,3 +1,13 @@
 
 
-TODO: Add reporting to the skill section and improve the overall skills names
+COMPLETE: Add reporting to the skill section and improve the overall skills names
+COMPLETE: Add the mouse scroll down icon
+COMPLETE: Improve the skill section
+TODO: Add the language section
+TODO: Make the images in the project section clickable
+TODO: Delete the portfolio from the project section
+TODO: Make the name a little bigger
+TODO: Delete CTF Builder is not a skill
+TODO: Think about adding the custom mouse
+TODO: Write my own bio and why both
+TODO: Use the pinia to communicate with the mouse from the components that are in hover

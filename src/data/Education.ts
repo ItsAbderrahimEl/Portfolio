@@ -7,7 +7,7 @@ import BookLogo from '@/assets/education/book.png'
 export let educations: Education[] = [
     {
         id: 1,
-        institution: 'Hack The Box Academy',
+        institution: 'HackTheBox Academy',
         studied: "Professional Education in Cybersecurity and Penetration Testing",
         duration: 'Dec 2022 – Present',
         site: 'https://academy.hackthebox.com/',

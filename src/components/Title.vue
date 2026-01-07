@@ -10,7 +10,7 @@
 
 <template>
 
-    <h1 :id="title" class="block text-3xl md:text-4xl font-bold">
+    <h1 :id="title" class="block text-3xl md:text-5xl font-bold md:text-center">
         {{ title }}
     </h1>
 

@@ -11,6 +11,7 @@
     import { definePerson } from "@vueuse/schema-org";
     import Education from "@/components/Education.vue";
     import Experiences from "@/components/Experience.vue";
+    import Languages from "@/components/Languages.vue";
 
     definePerson({
         name: "Abderrahim El Ouariachi",
@@ -52,6 +53,8 @@
         <Education />
 
         <Skills />
+
+        <Languages />
 
         <Contact />
     </div>

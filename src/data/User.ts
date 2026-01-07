@@ -36,10 +36,5 @@ export let user: User = {
 <p>
     Understanding how applications are built provides a clear advantage when testing them, while security
     expertise enables me to identify vulnerabilities early and design more secure, reliable systems.
-</p>
-
-<p>
-    While demanding, this dual focus aligns with my capabilities and long-term goals.
-    <span class="font-bold">I am fully committed to excelling in both areas.</span>
 </p>`
 }

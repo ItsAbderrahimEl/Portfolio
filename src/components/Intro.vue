@@ -7,15 +7,14 @@
 </script>
 
 <template>
-    <Container class=" md:mt-0 h-screen flex items-center justify-center">
-
-        <p class="text-2xl text-center md:text-6xl font-bold">{{ user.name }}</p>
+    <Container class="md:relative md:mt-0 h-screen flex items-center justify-center">
+        <p class="text-4xl text-center md:text-7xl font-bold">{{ user.name }}</p>
 
         <p class="text-lg md:text-2xl text-center md:text-left">{{ user.expertise }}</p>
 
-        <p class="mt-10 text-center md:text-left text-sm md:text-base">{{ user.intro }}</p>
+        <p class="mt-10 text-center  text-sm md:text-xl">{{ user.intro }}</p>
 
-        <div class="flex gap-x-5 mt-5">
+        <div class="flex gap-x-5 md:-mb-5 md:gap-x-8 mt-5">
             <a
                 href="/Portfolio/Abderrahim-El-Ouariachi-CV-English.pdf"
                 target="_blank"

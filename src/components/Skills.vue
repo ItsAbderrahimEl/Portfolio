@@ -19,7 +19,7 @@
                     <p class="text-2xl md:ml-[10%] md:mb-5">
                         {{ field.name }}
                     </p>
-                    <div class="grid grid-cols-3  md:w-2/3 md:grid-cols-4 md:mx-auto gap-x-5 md:gap-x-20 md:gap-y-10 pt-5">
+                    <div class="grid grid-cols-3 gap-y-10  md:w-2/3 md:grid-cols-4 md:mx-auto gap-x-5 md:gap-x-20 pt-5">
                         <template
                             :key="skill.id"
                             v-for="skill in field.skills"
@@ -28,14 +28,14 @@
                                 :href="skill.url"
                                 target="_blank"
                             >
-                                <div class="flex flex-col h-[6rem] items-center space-y-2 col-span-1">
+                                <div class="flex flex-col h-[6rem] items-center space-y-2 col-span-1 md:mt-10">
                                     <img
-                                        class="size-10"
+                                        class="size-10 md:size-13"
                                         :src="skill.logo"
                                         :alt="skill.name"
                                         :title="skill.name"
                                     />
-                                    <span class="text-sm text-center text-gray-300"> {{ skill.name }}</span>
+                                    <span class="text-sm text-center text-gray-300 md:text-gray-200"> {{ skill.name }}</span>
                                 </div>
                             </a>
                         </template>

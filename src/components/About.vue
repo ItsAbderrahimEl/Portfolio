@@ -9,7 +9,7 @@
 
 <template>
     <Container>
-        <Title title="About Me" />
+        <Title title="About Me"/>
         <p
             class="space-y-5 md:space-y-1 md:text-lg"
             v-html="user.biography"

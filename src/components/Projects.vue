@@ -28,11 +28,13 @@
                 :key="project.id"
             >
                 <div>
-                    <img
-                        :src="project.pattern"
-                        alt="Project Image"
-                        class="w-full h-[15rem] md:max-w-90  rounded-xl object-cover"
-                    />
+                    <a :href="project.url" target="_blank">
+                        <img
+                            :src="project.pattern"
+                            alt="Project Image"
+                            class="w-full h-[15rem] md:max-w-90  rounded-xl object-cover"
+                        />
+                    </a>
 
                     <div class="ml-2 mt-2 md:max-w-90">
                         <a
