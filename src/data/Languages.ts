@@ -3,7 +3,6 @@ import America from '@/assets/languages/america.svg'
 import Spain from '@/assets/languages/spain.svg'
 import France from '@/assets/languages/france.svg'
 import Morocco from '@/assets/languages/morocco.svg'
-import Amazigh from '@/assets/languages/amazigh.png'
 
 
 export let languages: Language[] = [
