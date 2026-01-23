@@ -10,7 +10,7 @@ export let experiences: Experience[] = [
         'id': 3,
         'role': 'Ethical Hacking Practitioner',
         'company_name': 'HackTheBox',
-        'company_url': 'https://hackthebox.com/',
+        'company_url': 'https://app.hackthebox.com/public/users/677236',
         'duration': 'Sep 2023 - Present',
         'logo': HackTheBoxLogo,
         'type': 'Practice',
