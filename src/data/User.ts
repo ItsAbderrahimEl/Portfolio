@@ -1,4 +1,11 @@
-import type {User} from '@/types/User';
+type User = {
+    id: number,
+    firstname: string,
+    lastname: string,
+    intro: string,
+    expertise: string,
+    biography: string
+}
 
 export let user: User = {
     'id': 1,
