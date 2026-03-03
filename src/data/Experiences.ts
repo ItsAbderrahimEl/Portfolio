@@ -10,6 +10,19 @@ export interface Experience {
 
 export let experiences: Experience[] = [
     {
+        id: 4,
+        role: "Laravel Security Analyst",
+        company_name: "WebCom",
+        company_url: "https://webcom.ma/",
+        duration: "Feb 2026 - Present",
+        type: "Full Time",
+        description: [
+            "Harden Laravel applications against real-world attacks by hunting down vulnerabilities in authentication, authorization, input validation, and data handling before they reach production.",
+            "Design and implement robust security controls in Laravel, including advanced CSRF protection, encryption strategies, secure session management, and environment hardening tailored to each project.",
+            "Work hand-in-hand with development teams to turn security findings into clean, maintainable fixes and integrate automated security checks into the Laravel CI/CD pipeline for continuous protection."
+        ]
+    },
+    {
         id: 3,
         role: "Ethical Hacking Practitioner",
         company_name: "HackTheBox",

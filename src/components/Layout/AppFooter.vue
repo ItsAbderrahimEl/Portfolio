@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <footer class="h-20 z-30 border-t border-gray-800 w-full">
+    <footer class="h-20 mb-15 md:mb-0 text-center z-30 border-t border-gray-800 w-full">
         <div class="px-4 py-6 flex flex-col items-center gap-2 text-xs text-gray-400">
             <div>© {{ new Date().getFullYear() }} All rights reserved.</div>
             <div>

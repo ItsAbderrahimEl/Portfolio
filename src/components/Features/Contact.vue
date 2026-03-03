@@ -18,7 +18,7 @@
                 I'm always open to new opportunities, collaborations, and meaningful conversations. Feel free to reach out!
             </p>
 
-            <div class="flex gap-x-5 items-center justify-center">
+            <div class="flex flex-col md:flex-row gap-5 items-center justify-center">
                 <PrimaryLink href="mailto:abderahimouriachi@gmail.com" title="Email" class="text-black">
                     <template #icon>
                         <Email class="size-5"/>

@@ -12,7 +12,7 @@ export let educations: Education[] = [
         id: 1,
         institution: 'HackTheBox Academy',
         studied: 'Professional Education in Cybersecurity and Penetration Testing',
-        duration: 'Dec 2022 – Present',
+        duration: '2022 – Present',
         site: 'https://academy.hackthebox.com/',
         description: [
             'Completed hands-on training in penetration testing methodologies and attack frameworks.',
@@ -24,7 +24,7 @@ export let educations: Education[] = [
         id: 2,
         institution: 'Laracasts',
         studied: 'Advanced Training in Web Development',
-        duration: 'Oct 2022 – Present',
+        duration: '2022 – Present',
         site: 'https://laracasts.com/',
         description: [
             'Advanced Laravel development with a focus on clean architecture and maintainable code.',
@@ -36,7 +36,7 @@ export let educations: Education[] = [
         id: 3,
         institution: 'Higher School of Technology, Oujda',
         studied: "Bachelor’s Degree in Computer Science",
-        duration: 'Sep 2021 – Sep 2024',
+        duration: '2021 – 2024',
         site: 'http://esto.ump.ma/',
         description: [
             'Built a solid foundation in core computer science concepts and problem-solving.',

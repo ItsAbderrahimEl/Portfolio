@@ -20,8 +20,7 @@
             v-html="user.biography"
         ></p>
 
-        <div class="grid mt-5 grid-cols-1 md:grid-cols-3 gap-10">
-
+        <div class="grid mt-5 grid-cols-1 md:grid-cols-3 gap-5">
             <AboutMiniSection>
                 <template #icon>
                     <Code class="size-10 fill-green-300" />

@@ -9,7 +9,7 @@
             y_position?: string
         }>(),
         {
-            color: 'rgba(70,130,180,0.09)',
+            color: 'rgba(70,130,180,0.1)',
             size: '700px',
             x_position: '0px',
             y_position: '66.6667%', // ≈ top-2/3

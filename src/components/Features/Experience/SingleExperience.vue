@@ -35,7 +35,7 @@
             class="flex gap-x-1"
             v-for="description in experience.description"
         >
-            <Triangle class="stroke-green-200 rotate-90 size-3 mt-1" /> <span class="text-sm">{{ description }}</span>
+            <Triangle class="stroke-green-200 rotate-90 size-3 mt-1" /> <span class="text-sm w-full">{{ description }}</span>
         </li>
     </ul>
 </div>
