@@ -2,7 +2,7 @@
     setup
     lang="ts"
 >
-    import type {Project} from "@/types/Project.ts";
+    import type {Project} from "@/data/Projects.ts";
     import ExternalLink from "@/components/Shared/Icons/ExternalLink.vue";
 
     defineProps<{

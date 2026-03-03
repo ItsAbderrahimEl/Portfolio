@@ -4,7 +4,7 @@ import Pattern3 from '@/assets/patterns/pattern3.png'
 import Pattern4 from '@/assets/patterns/pattern4.png'
 import Pattern5 from '@/assets/patterns/pattern5.png'
 
-interface Project {
+export interface Project {
     id: number;
     url: string;
     name: string;
