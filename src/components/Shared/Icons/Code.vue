@@ -1,8 +1,5 @@
 <script setup lang="ts">
-    //Variables
-    
-    //Hooks
-    
+
 </script>
 
 <template>
