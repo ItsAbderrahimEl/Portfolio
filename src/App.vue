@@ -2,16 +2,57 @@
     setup
     lang="ts"
 >
-    import Intro from "@/components/Intro.vue";
-    import About from "@/components/About.vue";
-    import Skills from "@/components/Skills.vue";
-    import WhyBoth from "@/components/WhyBoth.vue";
-    import Contact from "@/components/Contact.vue";
-    import Projects from "@/components/Projects.vue";
-    import { definePerson } from "@vueuse/schema-org";
-    import Education from "@/components/Education.vue";
-    import Experiences from "@/components/Experience.vue";
-    import Languages from "@/components/Languages.vue";
+    import Introduction from "@/components/Features/Introduction.vue";
+    import About from "@/components/Features/About/About.vue";
+    import Fields from "@/components/Features/Fields.vue";
+    import Contact from "@/components/Features/Contact.vue";
+    import Projects from "@/components/Features/Projects/Projects.vue";
+    import {definePerson} from "@vueuse/schema-org";
+    import Education from "@/components/Features/Education/Education.vue";
+    import Experiences from "@/components/Features/Experience/Experience.vue";
+    import AppHeader from "@/components/Layout/AppHeader.vue";
+    import AppFooter from "@/components/Layout/AppFooter.vue";
+    import Title from "@/components/Shared/Title.vue";
+    import CoolGlow from "@/components/Shared/CoolGlow.vue";
+    import TopGlow from "@/components/Shared/TopGlow.vue";
+
+    let Glows = [
+        {
+            id: 1,
+            y_position: "15%",
+            x_position: "10%"
+        },
+        {
+            id: 2,
+            y_position: "25%",
+            x_position: "50%"
+        },
+        {
+            id: 3,
+            y_position: "35%",
+            x_position: "10%"
+        },
+        {
+            id: 4,
+            y_position: "45%",
+            x_position: "50%"
+        },
+        {
+            id: 5,
+            y_position: "70%",
+            x_position: "10%"
+        },
+        {
+            id: 6,
+            y_position: "80%",
+            x_position: "50%"
+        },
+        {
+            id: 6,
+            y_position: "90%",
+            x_position: "10%"
+        }
+    ];
 
     definePerson({
         name: "Abderrahim El Ouariachi",
@@ -38,13 +79,21 @@
     });
 </script>
 
-<template>
-    <div class="mountain_pattern relative min-h-screen text-white p-5 space-y-20 md:space-y-30 md:flex md:flex-col md:items-center md:justify-center">
-        <Intro />
+<template class="relative">
+    <AppHeader />
+
+    <Title id="Home" />
+
+    <div class="bg-base relative text-secondary-text  space-y-20 p-5 pb-0md:space-y-30 md:flex md:flex-col md:items-center md:justify-center overflow-hidden">
+        <TopGlow />
+
+        <template v-for="glow in Glows" :key="glow.id">
+            <CoolGlow :x_position="glow.x_position" :y_position="glow.y_position"/>
+        </template>
+
+        <Introduction />
 
         <About />
-
-        <WhyBoth />
 
         <Experiences />
 
@@ -52,10 +101,10 @@
 
         <Education />
 
-        <Skills />
-
-        <Languages />
+        <Fields />
 
         <Contact />
+
+        <AppFooter />
     </div>
 </template>

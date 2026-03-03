@@ -1,30 +1,40 @@
-import type {Language} from "@/types/Language.ts";
-import America from '@/assets/languages/america.svg'
-import Spain from '@/assets/languages/spain.svg'
-import France from '@/assets/languages/france.svg'
-import Morocco from '@/assets/languages/morocco.svg'
+type ProficiencyLevel =
+    | "Native"
+    | "Fluent"
+    | "Professional"
+    | "Intermediate"
+    | "Basic"
 
+type Language = {
+    id: number;
+    name: string;
+    proficiency: ProficiencyLevel;
+}
 
 export let languages: Language[] = [
     {
-        'id': 1,
-        'name': 'English',
-        'country': America
-    }, {
-        'id': 2,
-        'name': 'Spanish',
-        'country': Spain
-    }, {
-        'id': 3,
-        'name': 'French',
-        'country': France
-    }, {
-        'id': 4,
-        'name': 'Arabic',
-        'country': Morocco
-    }, {
-        'id': 5,
-        'name': 'Amazigh',
-        'country': Morocco
+        id: 1,
+        name: "English",
+        proficiency: "Professional",
+    },
+    {
+        id: 2,
+        name: "Spanish",
+        proficiency: "Professional",
+    },
+    {
+        id: 3,
+        name: "French",
+        proficiency: "Intermediate",
+    },
+    {
+        id: 4,
+        name: "Arabic",
+        proficiency: "Native",
+    },
+    {
+        id: 5,
+        name: "Amazigh",
+        proficiency: "Native",
     }
 ]
