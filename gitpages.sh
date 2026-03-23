@@ -1,11 +1,17 @@
 #!/usr/bin/bash
 
 # Source custom shell functions from the local bash_functions file
-[ -f ./bash_functions ] && source ./bash_functions
+[ -f ./bash_functions.sh ] && source ./bash_functions.sh
 
 # Convert any new PDF certificates to PNG images and save them in public/certificates/
 # Skips certificates that have already been converted
 sync_certificates '/root/Documents/Me/Certificates' './public/certificates'
+
+# Exit immediately if sync_certificates failed
+if [[ $? -ne 0 ]]; then
+  echo "Certificate sync failed. Aborting deployment."
+  exit 1
+fi
 
 # Compile and bundle frontend assets into the dist/ directory
 npm run build

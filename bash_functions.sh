@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 # Convert the pdf certificates into images and save them in /public/certificates
-
 sync_certificates() {
   local pdf_dir="${1:-/root/Documents/Me/Certificates}"
   local img_dir="${2:-./public/certificates}"
@@ -15,7 +14,7 @@ sync_certificates() {
 
     if [[ ! -f "$png" ]]; then
       echo "Converting: $filename.pdf"
-      convert -density 300 "$pdf" "$png" 2>/dev/null 1>/dev/null
+      convert -density 300 "$pdf" "$png"
 
       # shellcheck disable=SC2181
       if [[ $? -eq 0 ]]; then
