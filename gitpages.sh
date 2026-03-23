@@ -11,7 +11,8 @@ npm run build
 sync_certificates '/root/Documents/Me/Certificates' './public/certificates'
 
 # Stage all changes, commit, and push to the main branch
-git add -- *
+# shellcheck disable=SC2035
+git add  *
 git commit -m "My Portfolio"
 git push origin main
 

@@ -99,7 +99,7 @@
 
         <Projects />
 
-        <Certificates />
+        <!-- <Certificates /> -->
 
         <Education />
 
