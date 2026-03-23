@@ -3,12 +3,12 @@
 # Source custom shell functions from the local bash_functions file
 [ -f ./bash_functions ] && source ./bash_functions
 
-# Compile and bundle frontend assets into the dist/ directory
-npm run build
-
 # Convert any new PDF certificates to PNG images and save them in public/certificates/
 # Skips certificates that have already been converted
 sync_certificates '/root/Documents/Me/Certificates' './public/certificates'
+
+# Compile and bundle frontend assets into the dist/ directory
+npm run build
 
 # Stage all changes, commit, and push to the main branch
 # shellcheck disable=SC2035
