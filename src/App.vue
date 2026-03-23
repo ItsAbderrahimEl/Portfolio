@@ -99,6 +99,8 @@
 
         <Projects />
 
+        <Certificates />
+
         <Education />
 
         <Fields />

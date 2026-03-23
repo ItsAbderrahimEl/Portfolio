@@ -29,5 +29,5 @@
             Reading extensively across penetration testing, web development, design, martial arts,
             and Islamic literature — valuing character and faith alongside technical expertise.
         </Note>
-    </Container>
 </template>
+    </Container>
