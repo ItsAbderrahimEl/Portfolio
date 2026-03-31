@@ -16,7 +16,7 @@
     <Container>
         <Title id="About" normal="Who" colored="I Am" />
         <p
-            class="space-y-5 md:space-y-1 md:text-lg"
+            class="space-y-5  md:space-y-1 md:text-lg"
             v-html="user.biography"
         ></p>
 

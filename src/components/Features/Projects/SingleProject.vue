@@ -11,11 +11,11 @@
 </script>
 
 <template>
-    <div class="border-1 border-gray-800 bg-secondary/10 hover:border-green-200 rounded-lg p-5 flex flex-col space-y-5 group">
+    <div class="border border-gray-800 bg-secondary/10 hover:border-green-200 rounded-lg p-5 flex flex-col gap-y-5 group">
         <img
             :src="project.pattern"
             :alt="project.name"
-            class="w-full h-[15rem] md:max-w-90  rounded-xl object-cover group-hover:scale-105 transition-transform duration-500"
+            class="w-full h-60 md:max-w-90  rounded-xl object-cover group-hover:scale-105 transition-transform duration-500"
         />
 
         <div class="flex flex-col bg-black/10">
@@ -30,8 +30,6 @@
             <p class="text-sm">
                 {{ project.description }}
             </p>
-
-
         </div>
     </div>
 </template>

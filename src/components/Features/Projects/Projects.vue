@@ -23,10 +23,10 @@
     <Container>
         <Title
             id="Projects"
-            normal="Things I've"
-            colored="Built"
+            normal="My"
+            colored="Craft"
         />
-        <div class="space-y-10 md:grid md:grid-cols-2 md:gap-x-10 md:p-5 md:mt-5">
+        <div class="grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-10 md:p-5 md:mt-5">
             <template
                 v-for="project in Projects"
                 :key="project.id"

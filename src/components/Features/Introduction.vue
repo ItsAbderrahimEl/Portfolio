@@ -12,7 +12,7 @@
 
 <template>
     <Container class=" text-text md:mt-0 md:h-screen flex items-center mt-20 md:justify-center">
-        <p class="text-4xl text-center md:text-7xl font-bold">{{ user.firstname }} <span class="green-gradient">{{ user.lastname }}</span> </p>
+        <p class="text-5xl text-center md:text-7xl font-bold">{{ user.firstname }} <span class="green-gradient">{{ user.lastname }}</span> </p>
 
         <p class="text-lg md:text-2xl text-center md:text-left">{{ user.expertise }}</p>
 

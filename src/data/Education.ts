@@ -13,7 +13,7 @@ export let educations: Education[] = [
         institution: 'HackTheBox Academy',
         studied: 'Professional Education in Cybersecurity and Penetration Testing',
         duration: '2022 – Present',
-        site: 'https://academy.hackthebox.com/',
+        site: 'https://github.com/ItsAbderrahimEl/HackTheBox-Student-Transcript/',
         description: [
             'Completed hands-on training in penetration testing methodologies and attack frameworks.',
             'Practiced exploiting real-world vulnerabilities across web applications, networks, and systems.',
