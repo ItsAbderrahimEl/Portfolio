@@ -19,7 +19,7 @@
         />
 
         <div class="flex flex-col bg-black/10">
-            <a :href="project.url" class="flex justify-between items-center mb-1">
+            <a :href="project.url" target="_blank" class="flex justify-between items-center mb-1">
                 <h5 class="text-white text-xl font-bold">
                     {{ project.name }}
                 </h5>

@@ -10,33 +10,33 @@ export interface Experience {
 
 export let experiences: Experience[] = [
     {
+        id: 5,
+        role: "DevSecOps Engineer",
+        company_name: "WebCom",
+        company_url: "https://webcom.ma/",
+        duration: "Mar 2026 - Present",
+        type: "Full-Time",
+        description: [
+            "Automated the infrastructure of a web application using Terraform and Ansible, ensuring scalability and reliability.",
+            "Implemented security hardening measures including firewall configuration, brute-force protection via Cloudflare and Fail2Ban, and more.",
+            "Sole DevSecOps owner of a production application — independently managing infrastructure, security, and deployment pipelines end-to-end."
+        ]
+    },
+    {
         id: 4,
         role: "Laravel Security Analyst",
         company_name: "WebCom",
         company_url: "https://webcom.ma/",
-        duration: "Feb 2026 - Present",
-        type: "Full Time",
+        duration: "Feb 2026 - Mar 2026",
+        type: "Contractor",
         description: [
-            "Harden Laravel applications against real-world attacks by hunting down vulnerabilities in authentication, authorization, input validation, and data handling before they reach production.",
-            "Design and implement robust security controls in Laravel, including advanced CSRF protection, encryption strategies, secure session management, and environment hardening tailored to each project.",
-            "Work hand-in-hand with development teams to turn security findings into clean, maintainable fixes and integrate automated security checks into the Laravel CI/CD pipeline for continuous protection."
+            "Conducted a black-box penetration test on a multi-tenant AI-powered Laravel application, uncovering more than 50 vulnerabilities.",
+            "Discovered and documented a wide range of vulnerabilities, including OWASP API Top 10 vulnerabilities, Remote Code Execution (RCE), and Insecure Direct Object Reference (IDOR) issues, among others.",
+            "A great opportunity to apply hands-on offensive security skills in a real-world production environment."
         ]
     },
     {
         id: 3,
-        role: "Ethical Hacking Practitioner",
-        company_name: "HackTheBox",
-        company_url: "https://app.hackthebox.com/public/users/677236",
-        duration: "Sep 2023 - Present",
-        type: "Practice",
-        description: [
-            "Participate in Capture The Flag (CTF) challenges to enhance cybersecurity and penetration testing skills.",
-            "Practice exploiting real-world vulnerabilities across web, network, and system targets.",
-            "Collaborate with the HackTheBox community to share techniques and learn advanced attack methodologies."
-        ]
-    },
-    {
-        id: 2,
         role: "Laravel Full Stack Web Developer",
         company_name: "Superior School Of Technology Oujda",
         company_url: "http://esto.ump.ma",
@@ -46,6 +46,19 @@ export let experiences: Experience[] = [
             "Supervised and coordinated an intern team to deliver a full-stack web application for the Higher School of Technology in Oujda, Morocco.",
             "Designed and implemented the application using Laravel, Blade, and Tailwind CSS, producing a modern, responsive user interface.",
             "Led and mentored team members, promoting collaboration, clear communication, and effective problem-solving in a real-world project environment."
+        ]
+    },
+    {
+        id: 2,
+        role: "Ethical Hacking Practitioner",
+        company_name: "HackTheBox",
+        company_url: "https://app.hackthebox.com/public/users/677236",
+        duration: "Sep 2023 - Present",
+        type: "Practice",
+        description: [
+            "Participate in Capture The Flag (CTF) challenges to enhance cybersecurity and penetration testing skills.",
+            "Practice exploiting real-world vulnerabilities across web, network, and system targets.",
+            "Collaborate with the HackTheBox community to share techniques and learn advanced attack methodologies."
         ]
     },
     {

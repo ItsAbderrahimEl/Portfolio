@@ -19,8 +19,8 @@ export let Projects: Project[] = [
         id: 6,
         name: 'Cybersecurity WriteUps',
         pattern: Pattern6,
-        description: `A curated collection of in-depth writeups for some of the most challenging machines on HackTheBox, covering exploitation techniques, privilege escalation, and CTF methodologies.`,
-        url: 'https://github.com/ItsAbderrahimEl/Cybersecurity-Writeups/',
+        description: `A curated collection of in-depth writeup's for some of the most challenging machines on HackTheBox, covering exploitation techniques, privilege escalation, and CTF methodologies.`,
+        url: 'https://github.com/ItsAbderrahimEl/Cybersecurity-Writeups/tree/main/Machines',
     },
     {
         id: 5,
