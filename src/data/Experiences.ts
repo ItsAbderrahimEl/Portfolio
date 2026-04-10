@@ -17,9 +17,9 @@ export let experiences: Experience[] = [
         duration: "Mar 2026 - Present",
         type: "Full-Time",
         description: [
-            "Automated the infrastructure of a web application using Terraform and Ansible, ensuring scalability and reliability.",
-            "Implemented security hardening measures including firewall configuration, brute-force protection via Cloudflare and Fail2Ban, and more.",
-            "Sole DevSecOps owner of a production application — independently managing infrastructure, security, and deployment pipelines end-to-end."
+            "Architected and automated full infrastructure provisioning for a production web application using Ansible, enabling repeatable, zero-drift deployments at scale.",
+            "Hardened server security end-to-end: configured stateful firewalls, deployed Fail2Ban for brute-force mitigation, and enforced least-privilege user access policies via Ansible playbooks.",
+            "Sole DevSecOps owner of a production application — independently driving infrastructure, security posture, and continuous deployment pipelines from design to delivery."
         ]
     },
     {
