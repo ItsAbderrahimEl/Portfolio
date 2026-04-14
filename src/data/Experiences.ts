@@ -14,8 +14,8 @@ export let experiences: Experience[] = [
         role: "DevSecOps Engineer",
         company_name: "WebCom",
         company_url: "https://webcom.ma/",
-        duration: "Mar 2026 - Present",
-        type: "Full-Time",
+        duration: "Mar 2026 - Apr 2026",
+        type: "Contractor",
         description: [
             "Architected and automated full infrastructure provisioning for a production web application using Ansible, enabling repeatable, zero-drift deployments at scale.",
             "Hardened server security end-to-end: configured stateful firewalls, deployed Fail2Ban for brute-force mitigation, and enforced least-privilege user access policies via Ansible playbooks.",
