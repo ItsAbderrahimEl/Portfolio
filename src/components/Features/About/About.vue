@@ -65,9 +65,7 @@
         </div>
 
         <Note title="Why Both?">
-            Understanding how applications are built provides a clear advantage when testing them,
-            while security expertise enables me to identify vulnerabilities early and design more secure,
-            reliable systems. The overlap between development and penetration testing reinforces each discipline.
+            Most developers ship code hoping it's secure. Most pentesters break code without knowing how it was built. I do both — and each side makes me sharper at the other. Building gives me an attacker's map of where things tend to break; pentesting gives me a developer's instinct for writing code that doesn't.
         </Note>
     </Container>
 </template>

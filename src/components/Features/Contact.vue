@@ -15,9 +15,7 @@
         <Title id="Contact" normal="Get In" colored="Touch" />
         <div class="space-y-5 md:flex md:flex-col md:items-center md:mb-10">
             <p class="text-center md:text-lg md:max-w-2/3">
-                I'm always open to new opportunities, collaborations, and meaningful conversations. Feel free to reach out!
-            </p>
-
+                Whether you're hiring, building something interesting, or just want to talk security and code — Reach out.</p>
             <div class="flex flex-col md:flex-row gap-5 items-center justify-center">
                 <PrimaryLink href="mailto:abderahimouriachi@gmail.com" title="Email" class="text-black">
                     <template #icon>

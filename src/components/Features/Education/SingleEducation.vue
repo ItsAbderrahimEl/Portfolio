@@ -25,6 +25,7 @@
                     </h5>
                     <a
                         :href="education.site"
+                        target="_blank"
                         class="text-sm text-green-200"
                     >
                         {{ education.institution }}

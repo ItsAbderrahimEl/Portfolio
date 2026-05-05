@@ -26,8 +26,7 @@
         </div>
 
         <Note title="Avid & Lifelong Reader">
-            Reading extensively across penetration testing, web development, design, martial arts,
-            and Islamic literature — valuing character and faith alongside technical expertise.
+            A lifelong reader across penetration testing, web development, design, martial arts, and Islamic religion — because building strong systems and building strong character draw from the same discipline.
         </Note>
     </Container>
 </template>

@@ -35,7 +35,7 @@ export let educations: Education[] = [
     {
         id: 3,
         institution: 'Higher School of Technology, Oujda',
-        studied: "Bachelor’s Degree in Computer Science",
+        studied: "Technical Diploma in Computer Science",
         duration: '2021 – 2024',
         site: 'http://esto.ump.ma/',
         description: [

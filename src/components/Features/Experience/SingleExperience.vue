@@ -13,7 +13,7 @@
 </script>
 
 <template>
-<div class="border-1 border-gray-800 bg-secondary/10 hover:border-green-200 rounded-lg p-5 flex flex-col space-y-5">
+<div class="border border-gray-800 bg-secondary/10 hover:border-green-200 rounded-lg p-5 flex flex-col space-y-5">
     <span class="text-green-200 flex items-center gap-x-1 text-sm">
         <Bag class="fill-green-200"/> {{ experience.duration }}
     </span>
@@ -24,7 +24,7 @@
         </h5>
 
         <div class="text-md">
-            <a :href="experience.company_url" class="text-green-200">{{ experience.company_name }}</a>
+            <a :href="experience.company_url" target="_blank" class="text-green-200">{{ experience.company_name }}</a>
             —
             <span>{{ experience.type }}</span>
         </div>

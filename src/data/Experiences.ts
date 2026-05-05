@@ -58,7 +58,7 @@ export let experiences: Experience[] = [
         description: [
             "Participate in Capture The Flag (CTF) challenges to enhance cybersecurity and penetration testing skills.",
             "Practice exploiting real-world vulnerabilities across web, network, and system targets.",
-            "Collaborate with the HackTheBox community to share techniques and learn advanced attack methodologies."
+            "Gained cybersecurity knowledge throught guidence and mentorship from industry experts."
         ]
     },
     {
