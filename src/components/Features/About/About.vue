@@ -65,7 +65,7 @@
         </div>
 
         <Note title="Why Both?">
-            Most developers ship code hoping it's secure. Most pentesters break code without knowing how it was built. I do both — and each side makes me sharper at the other. Building gives me an attacker's map of where things tend to break; pentesting gives me a developer's instinct for writing code that doesn't.
+            Most developers ship code hoping it's secure. Most pentesters break code without knowing how it was built. I do both — and each side makes me sharper at the other. Building gives me an attacker's map of where things tend to break; pentesting gives me a developer's instinct for writing code that doesn't break.
         </Note>
     </Container>
 </template>
