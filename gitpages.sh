@@ -19,6 +19,9 @@ resume_path="$HOME/Documents/Me/CV's/CV - Abderrahim El Ouariachi.pdf"
 
 if [[ -e "$resume_path" ]]; then
     cp "$resume_path" "./public/CV - Abderrahim El Ouariachi.pdf"
+else
+    printf '\033[31mError: resume not found at %s\033[0m\n' "$resume_path" >&2
+    exit 1
 fi
 
 # Compile and bundle frontend assets into the dist/ directory
