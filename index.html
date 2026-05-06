@@ -59,6 +59,19 @@
         content="Abderrahim El Ouariachi"
     >
 
+    <!-- Preload for faster first paint -->
+    <link rel="preload" href="./src/css/fonts/quantico-v19-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <style>
+        @font-face {
+            font-display: swap;
+            font-family: 'Quantico';
+            font-style: normal;
+            font-weight: 400;
+            src: url('./src/css/fonts/quantico-v19-latin-regular.woff2') format('woff2');
+        }
+    </style>
+
     <title>
         Portfolio | Abderrahim El Ouariachi
     </title>
