@@ -16,7 +16,7 @@
 
 <template>
 
-    <h1 :id="id" class="block text-3xl md:text-5xl font-bold">
+    <h1 :id="id" class="block text-3xl md:text-5xl font-bold font-quantico">
         {{ normal }} <span class="green-gradient">{{ colored }}</span>
     </h1>
 
