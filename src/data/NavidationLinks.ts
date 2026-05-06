@@ -5,6 +5,7 @@ export const navLinks: Link[] = [
     {name: 'About'},
     {name: 'Experiences'},
     {name: 'Projects'},
+    {name: 'Education'},
     {name: 'Fields'},
     {name: 'Contact'},
 ]

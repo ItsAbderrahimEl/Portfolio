@@ -19,7 +19,7 @@
         <p class="mt-10 text-center  text-sm md:text-xl">{{ user.intro }}</p>
 
         <div class="flex flex-col gap-5 md:-mb-5 md:gap-8 md:flex-row mt-5">
-            <PrimaryLink title="Resume" href="/Abderrahim-El-Ouariachi-CV-English.pdf" class="text-black">
+            <PrimaryLink title="Resume" href="/CV - Abderrahim El Ouariachi.pdf" class="text-black">
                 <template #icon>
                     <Resume class="size-5 fill-transparent stroke-black"/>
                 </template>

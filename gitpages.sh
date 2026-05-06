@@ -13,6 +13,14 @@ if [[ $? -ne 0 ]]; then
   exit 1
 fi
 
+# Copy the last version of the resume into the application
+
+resume_path="$HOME/Documents/Me/CV's/CV - Abderrahim El Ouariachi.pdf"
+
+if [[ -e "$resume_path" ]]; then
+    cp "$resume_path" "./public/CV - Abderrahim El Ouariachi.pdf"
+fi
+
 # Compile and bundle frontend assets into the dist/ directory
 npm run build
 
