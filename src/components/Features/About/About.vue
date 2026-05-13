@@ -3,13 +3,13 @@
     lang="ts"
 >
     import {user} from "@/data/User.ts";
+    import Note from "@/components/Shared/Note.vue";
     import Title from "@/components/Shared/Title.vue";
-    import Container from "@/components/Shared/Container.vue";
     import Code from "@/components/Shared/Icons/Code.vue";
+    import Container from "@/components/Shared/Container.vue";
     import Shield from "@/components/Shared/Icons/Shield.vue";
     import Terminal from "@/components/Shared/Icons/Terminal.vue";
     import AboutMiniSection from "@/components/Features/About/AboutMiniSection.vue";
-    import Note from "@/components/Shared/Note.vue";
 </script>
 
 <template>
@@ -59,13 +59,13 @@
                 </template>
 
                 <template #description>
-                    Writing maintainable, well-tested, and reusable code with best practices.
+                    Writing maintainable, well-tested, and reusable code.
                 </template>
             </AboutMiniSection>
         </div>
 
         <Note title="Why Both?">
-            Most developers ship code hoping it's secure. Most pentesters break code without knowing how it was built. I do both — and each side makes me sharper at the other. Building gives me an attacker's map of where things tend to break; pentesting gives me a developer's instinct for writing code that doesn't break.
+            Most developers ship code hoping it's secure. Most pentesters break code without knowing how it was built. I do both—and each side makes me better at the other. Building gives me an attacker's map of where things tend to break; pentesting gives me a developer's instinct for writing code that doesn't break.
         </Note>
     </Container>
 </template>

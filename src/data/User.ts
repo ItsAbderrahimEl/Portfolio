@@ -11,9 +11,9 @@ export let user: User = {
     'id': 1,
     'firstname': 'Abderrahim',
     'lastname': 'El Ouariachi',
-    'intro': 'A builder who thinks like an attacker. An attacker who ships what he builds.',
+    'intro': 'I build. I dissect. I operate with surgical precision.',
     'expertise': 'Full-Stack Laravel Developer & Penetration Tester',
-    'biography': `<p>I build web applications end to end — from the interface down to the infrastructure — and I break them to make sure they hold up. My work spans full-stack development and offensive security: I ship production apps, harden the systems behind them, and probe both for weaknesses — most recently surfacing 50+ vulnerabilities in a multi-tenant AI platform as its sole pentester.</p>
-<p>I understand how applications work because I build them. I know how they fail because I attack them.</p>
-<p>I care about clean, reusable code and interfaces that feel obvious to use — and equally about what happens when someone tries to break them. Based in Morocco and open to roles where building and securing carry the same weight.</p>`
+    'biography': `<p>I'm a security person who likes adventure, challenges, and loves thinking in systems. Starting from a young age, I was triggered by cybersecurity and the power that it gives.</p>
+<p>Growing up, my thinking in systems made me love programming so I can create real things while my darker side helps me keep everything I build secure at the same time that allows me to analyze other people's work (systems). </p>
+<p>I live in Morocco, and I welcome any opportunity that values development and security alike.</p>`
 }
