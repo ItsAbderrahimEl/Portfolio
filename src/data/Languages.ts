@@ -25,7 +25,7 @@ export let languages: Language[] = [
     {
         id: 3,
         name: "French",
-        proficiency: "Intermediate",
+        proficiency: "Professional",
     },
     {
         id: 4,
