@@ -27,6 +27,11 @@ fi
 # Compile and bundle frontend assets into the dist/ directory
 npm run build
 
+if [[ $? -ne 0 ]]; then
+  echo "Build Failed Aborting"
+  exit 1
+fi
+
 # Stage all changes, commit, and push to the main branch
 # shellcheck disable=SC2035
 git add  *
