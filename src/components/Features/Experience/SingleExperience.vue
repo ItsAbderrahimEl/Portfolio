@@ -39,6 +39,6 @@
             <Triangle class="stroke-green-200 rotate-90 size-3 mt-1" /> <span class="text-sm w-full" v-html="description"></span>
         </li>
     </ul>
-    <Note class="-mt-5 text-md" v-if="experience.has_overview" title="Overview" :content="experience.overview"/>
+    <Note class="-mt-5 text-md" v-if="experience.has_overview" title="Overview" :content="experience.overview ?? ''"/>
 </div>
 </template>
