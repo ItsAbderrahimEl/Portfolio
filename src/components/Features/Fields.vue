@@ -3,9 +3,9 @@
     lang="ts"
 >
     import Title from "@/components/Shared/Title.vue";
-    import {fields} from "@/data/Fields.ts"
+    import {fields} from "../../../data/Fields.ts"
     import Container from "@/components/Shared/Container.vue";
-    import {languages} from "@/data/Languages.ts";
+    import {languages} from "../../../data/Languages.ts";
 </script>
 
 <template>

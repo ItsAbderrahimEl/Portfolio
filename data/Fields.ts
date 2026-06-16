@@ -17,48 +17,38 @@ export let fields: Field[] = [
         skills: [
             {
                 id: 1,
-                name: "Laravel",
-                url: "https://laravel.com/docs/12.x",
+                name: "Backend Development (Laravel, PHP)",
+                url: "https://medium.com/@samanthahayesusa/why-laravel-is-a-great-choice-for-backend-development-058b285df3ba",
             },
             {
                 id: 2,
-                name: "Vue.js",
-                url: "https://vuejs.org",
+                name: "Frontend Development (Vue.js, Inertia.js)",
+                url: "https://itechtuts.com/mastering-laravel-with-vuejs-and-inertia-building-full-stack-modern-apps",
             },
             {
                 id: 3,
-                name: "Inertia.js",
-                url: "https://inertiajs.com",
+                name: "REST API Development",
+                url: "https://www.geeksforgeeks.org/node-js/rest-api-introduction/",
             },
             {
                 id: 4,
-                name: "TailwindCSS",
-                url: "https://tailwindcss.com",
+                name: "Database Design & Optimization",
+                url: "https://medium.com/@bahar.mahmudlu9/database-optimization-a-comprehensive-guide-for-data-engineers-b8d6c2ea96ce",
             },
             {
                 id: 5,
-                name: "MySQL",
-                url: "https://dev.mysql.com/doc/refman/8.4/en/introduction.html",
+                name: "Docker & Containerization",
+                url: "https://www.geeksforgeeks.org/blogs/containerization-using-docker/",
             },
             {
                 id: 6,
-                name: "Vite",
-                url: "https://vite.dev",
+                name: "Version Control (Git)",
+                url: "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control",
             },
             {
                 id: 7,
-                name: "Docker",
-                url: "https://docs.docker.com/get-started/",
-            },
-            {
-                id: 8,
-                name: "Git",
-                url: "https://git-scm.com/book/en/v2",
-            },
-            {
-                id: 9,
-                name: "Figma",
-                url: "https://www.figma.com",
+                name: "UI/UX (Figma)",
+                url: "https://www.geeksforgeeks.org/websites-apps/figma-tutorial/",
             }
         ]
     },
@@ -73,8 +63,8 @@ export let fields: Field[] = [
             },
             {
                 id: 3,
-                name: "Secure Code Review",
-                url: "https://www.geeksforgeeks.org/blogs/secure-coding-what-is-it-all-about/",
+                name: "Reconnaissance & Intelligence Gathering",
+                url: "https://www.numberanalytics.com/blog/intelligence-gathering-modern-era",
             },
             {
                 id: 4,
@@ -83,7 +73,7 @@ export let fields: Field[] = [
             },
             {
                 id: 6,
-                name: "Networking",
+                name: "Network Security",
                 url: "https://www.geeksforgeeks.org/computer-networks/basics-computer-networking/",
             },
             {
@@ -93,8 +83,8 @@ export let fields: Field[] = [
             },
             {
                 id: 7,
-                name: "Linux-Based Operating Systems",
-                url: "https://www.geeksforgeeks.org/linux-unix/introduction-to-linux-operating-system/",
+                name: "Operating Systems (Windows, Linux)",
+                url: "https://premioinc.com/blogs/blog/what-is-an-operating-system-os",
             },
             {
                 id: 8,

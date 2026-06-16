@@ -3,7 +3,8 @@
     lang="ts"
 >
    defineProps<{
-       title: string
+       title: string,
+       content: string
    }>()
 
 </script>
@@ -13,9 +14,7 @@
 
     <h5 class="text-white font-bold text text-lg mb-5">{{ title }}</h5>
 
-    <p>
-        <slot />
-    </p>
+    <p v-html="content"></p>
 
 </div>
 </template>

@@ -1,9 +1,9 @@
-import Pattern1 from '@/assets/patterns/pattern1.jpg'
-import Pattern2 from '@/assets/patterns/pattern2.gif'
-import Pattern3 from '@/assets/patterns/pattern3.png'
-import Pattern4 from '@/assets/patterns/pattern4.png'
-import Pattern5 from '@/assets/patterns/pattern5.png'
-import Pattern6 from '@/assets/patterns/pattern6.png'
+import Pattern1 from '../src/assets/patterns/pattern1.jpg'
+import Pattern2 from '../src/assets/patterns/pattern2.gif'
+import Pattern3 from '../src/assets/patterns/pattern3.png'
+import Pattern4 from '../src/assets/patterns/pattern4.png'
+import Pattern5 from '../src/assets/patterns/pattern5.png'
+import Pattern6 from '../src/assets/patterns/pattern6.png'
 
 
 export interface Project {

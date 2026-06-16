@@ -2,7 +2,7 @@
     setup
     lang="ts"
 >
-    import {navLinks} from "@/data/NavidationLinks.ts";
+    import {navLinks} from "../../../data/NavidationLinks.ts";
 </script>
 
 <template>

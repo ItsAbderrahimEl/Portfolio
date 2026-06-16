@@ -2,7 +2,7 @@
     setup
     lang="ts"
 >
-    import type {Education} from "@/data/Education.ts";
+    import type {Education} from "../../../../data/Education.ts";
     import School from "@/components/Shared/Icons/School.vue";
     import Triangle from "@/components/Shared/Icons/Triangle.vue";
 

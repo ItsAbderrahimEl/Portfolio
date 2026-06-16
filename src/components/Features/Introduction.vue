@@ -2,7 +2,7 @@
     setup
     lang="ts"
 >
-    import {user} from "@/data/User.ts";
+    import {user} from "../../../data/User.ts";
     import Container from "@/components/Shared/Container.vue";
     import PrimaryLink from "@/components/Shared/PrimaryLink.vue";
     import Resume from "@/components/Shared/Icons/Resume.vue";

@@ -6,16 +6,35 @@ export interface Experience {
     company_url: string;
     description: string[];
     company_name: string;
+    has_overview?: boolean;
+    overview?: string;
 }
 
 export let experiences: Experience[] = [
+    {
+        id: 6,
+        role: 'External Attack Surface Assessment',
+        company_name: 'Confidential',
+        company_url: '#',
+        duration: 'Apr 2026 - May 2026',
+        type: 'Independent Security Assessment',
+        description: [
+            'Conducted an independent assessment of a hosting provider\'s external attack surface spanning 13,312 IP addresses, identifying 205 responsive hosts and security findings affecting 37 internet-facing assets.',
+            'Discovered 30 vulnerabilities, including 12 Critical and 11 High severity findings, impacting VPN management interfaces, network infrastructure, web applications, default credentials, and outdated software.',
+            'Performed asset discovery, attack surface mapping, vulnerability validation, and risk assessment using a methodology aligned with real-world penetration testing engagements.',
+            'Submitted a detailed responsible disclosure report following multiple documented outreach attempts over a two-month period.',
+            'A redacted version of the report is available for review — accessible <a target="_blank" class="underline font-bold text-green-200" href="/public/Redacted%20Independent%20Security%20Assessment.pdf">here</a>.',
+        ],
+        has_overview: true,
+        overview: 'This engagement gave me hands-on experience with real production infrastructure — a hosting provider, where the blast radius of any vulnerability extends far beyond the company to every client and web application they serve. It also led me to build something lasting: a custom Obsidian script that spins up a structured penetration testing vault, automatically linking all assets discovered during an engagement — a tool I now use as a core part of my methodology — that you can found <a target="_blank" class="underline font-bold text-green-200" href="https://github.com/ItsAbderrahimEl/obsidian-pentest-vault">here</a>.'
+    },
     {
         id: 5,
         role: "DevSecOps Engineer",
         company_name: "WebCom",
         company_url: "https://webcom.ma/",
         duration: "Mar 2026 - Apr 2026",
-        type: "Contractor",
+        type: "Freelance",
         description: [
             "Architected and automated full infrastructure provisioning for a production web application using Ansible, enabling repeatable, zero-drift deployments at scale.",
             "Hardened server security end-to-end: configured stateful firewalls, deployed Fail2Ban for brute-force mitigation, and enforced least-privilege user access policies via Ansible playbooks.",
@@ -28,7 +47,7 @@ export let experiences: Experience[] = [
         company_name: "WebCom",
         company_url: "https://webcom.ma/",
         duration: "Feb 2026 - Mar 2026",
-        type: "Contractor",
+        type: "Freelance",
         description: [
             "Conducted a black-box penetration test on a multi-tenant AI-powered Laravel application, uncovering more than 50 vulnerabilities.",
             "Discovered and documented a wide range of vulnerabilities, including OWASP API Top 10 vulnerabilities, Remote Code Execution (RCE), and Insecure Direct Object Reference (IDOR) issues, among others.",
@@ -51,14 +70,14 @@ export let experiences: Experience[] = [
     {
         id: 2,
         role: "Ethical Hacking Practitioner",
-        company_name: "HackTheBox",
+        company_name: "Hack The Box",
         company_url: "https://app.hackthebox.com/public/users/677236",
         duration: "Sep 2023 - Present",
         type: "Practice",
         description: [
-            "Participate in Capture The Flag (CTF) challenges to enhance cybersecurity and penetration testing skills.",
-            "Practice exploiting real-world vulnerabilities across web, network, and system targets.",
-            "Gained cybersecurity knowledge throught guidence and mentorship from industry experts."
+            "Achieved Master rank (#73) on Hack The Box through consistent performance across offensive security challenges and labs.",
+            "Successfully compromised 330+ targets spanning web applications, Linux systems, Windows environments, Active Directory, and network infrastructure.",
+            "Developed hands-on expertise in enumeration, exploitation, privilege escalation, web application security, and post-exploitation techniques through realistic attack simulations."
         ]
     },
     {

@@ -2,9 +2,10 @@
     setup
     lang="ts"
 >
-    import type {Experience} from "@/data/Experiences.ts";
+    import type {Experience} from "../../../../data/Experiences.ts";
     import Triangle from "@/components/Shared/Icons/Triangle.vue";
     import Bag from "@/components/Shared/Icons/Bag.vue";
+    import Note from "@/components/Shared/Note.vue";
 
     defineProps<{
         experience: Experience
@@ -35,8 +36,9 @@
             class="flex gap-x-1"
             v-for="description in experience.description"
         >
-            <Triangle class="stroke-green-200 rotate-90 size-3 mt-1" /> <span class="text-sm w-full">{{ description }}</span>
+            <Triangle class="stroke-green-200 rotate-90 size-3 mt-1" /> <span class="text-sm w-full" v-html="description"></span>
         </li>
     </ul>
+    <Note class="-mt-5 text-md" v-if="experience.has_overview" title="Overview" :content="experience.overview"/>
 </div>
 </template>

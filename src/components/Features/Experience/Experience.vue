@@ -2,7 +2,7 @@
     setup
     lang="ts"
 >
-    import {experiences} from "@/data/Experiences.ts";
+    import {experiences} from "../../../../data/Experiences.ts";
     import Title from "@/components/Shared/Title.vue";
     import Container from "@/components/Shared/Container.vue";
     import SingleExperience from "@/components/Features/Experience/SingleExperience.vue";
@@ -11,9 +11,9 @@
 <template>
     <Container>
         <Title
-            id="Experiences"
-            normal="Where I've"
-            colored="Worked"
+            id="Work"
+            normal="Work and"
+            colored="Engagements"
         />
         <div class="space-y-10">
             <template

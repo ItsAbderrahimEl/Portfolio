@@ -2,7 +2,7 @@
     setup
     lang="ts"
 >
-    import {educations} from "@/data/Education.ts";
+    import {educations} from "../../../../data/Education.ts";
     import Title from "@/components/Shared/Title.vue";
     import Container from "@/components/Shared/Container.vue";
     import SingleEducation from "@/components/Features/Education/SingleEducation.vue";
@@ -24,9 +24,6 @@
                 <SingleEducation :education />
             </template>
         </div>
-
-        <Note title="Avid & Lifelong Reader">
-            A lifelong reader across penetration testing, web development, design, martial arts, and Islamic religion — because building strong systems and building strong character draw from the same discipline.
-        </Note>
+        <Note title="Avid & Lifelong Reader" content="A lifelong reader across penetration testing, web development, design, martial arts, and Islamic religion — because building strong systems and building strong character draw from the same discipline."/>
     </Container>
 </template>

@@ -2,7 +2,7 @@
     setup
     lang="ts"
 >
-    import {user} from "@/data/User.ts";
+    import {user} from "../../../../data/User.ts";
     import Note from "@/components/Shared/Note.vue";
     import Title from "@/components/Shared/Title.vue";
     import Code from "@/components/Shared/Icons/Code.vue";
@@ -64,8 +64,6 @@
             </AboutMiniSection>
         </div>
 
-        <Note title="Why Both?">
-            Most developers ship code hoping it's secure. Most pentesters break code without knowing how it was built. I do both—and each side makes me sharper at the other. Building gives me an attacker's map of where things tend to break; pentesting gives me a developer's instinct for writing code that doesn't break.
-        </Note>
+        <Note title="Why Both?" :content="user.whyboth"/>
     </Container>
 </template>

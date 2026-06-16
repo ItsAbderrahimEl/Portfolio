@@ -2,7 +2,7 @@
     setup
     lang="ts"
 >
-    import {Projects} from "@/data/Projects.ts";
+    import {Projects} from "../../../../data/Projects.ts";
     import Title from "@/components/Shared/Title.vue";
     import Container from "@/components/Shared/Container.vue";
     import {defineSoftwareApp} from "@vueuse/schema-org";
