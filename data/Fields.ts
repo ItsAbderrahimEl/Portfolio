@@ -26,11 +26,6 @@ export let fields: Field[] = [
                 url: "https://itechtuts.com/mastering-laravel-with-vuejs-and-inertia-building-full-stack-modern-apps",
             },
             {
-                id: 3,
-                name: "REST API Development",
-                url: "https://www.geeksforgeeks.org/node-js/rest-api-introduction/",
-            },
-            {
                 id: 4,
                 name: "Database Design & Optimization",
                 url: "https://medium.com/@bahar.mahmudlu9/database-optimization-a-comprehensive-guide-for-data-engineers-b8d6c2ea96ce",
@@ -73,13 +68,8 @@ export let fields: Field[] = [
             },
             {
                 id: 6,
-                name: "Network Security",
+                name: "Network Security Assessment",
                 url: "https://www.geeksforgeeks.org/computer-networks/basics-computer-networking/",
-            },
-            {
-                id: 5,
-                name: "Information Security",
-                url: "https://www.geeksforgeeks.org/computer-networks/what-is-information-security/",
             },
             {
                 id: 7,
