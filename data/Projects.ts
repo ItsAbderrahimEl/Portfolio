@@ -4,7 +4,7 @@ import Pattern3 from '../src/assets/patterns/pattern3.png'
 import Pattern4 from '../src/assets/patterns/pattern4.png'
 import Pattern5 from '../src/assets/patterns/pattern5.png'
 import Pattern6 from '../src/assets/patterns/pattern6.png'
-
+import Pattern7 from '../src/assets/patterns/pattern7.png'
 
 export interface Project {
     id: number;
@@ -16,11 +16,18 @@ export interface Project {
 
 export let Projects: Project[] = [
     {
+        id: 7,
+        name: 'Obsidian Pentest Vault',
+        pattern: Pattern7,
+        description: `Designed a reusable Obsidian vault template that centralizes penetration testing documentation, asset relationships, task tracking, and reporting.`,
+        url: 'https://itsabderrahimel.github.io/obsidian-pentest-vault/',
+    },
+    {
         id: 6,
         name: 'Cybersecurity WriteUps',
         pattern: Pattern6,
         description: `A curated collection of in-depth writeup's for some of the most challenging machines on HackTheBox, covering exploitation techniques, privilege escalation, and CTF methodologies.`,
-        url: 'https://github.com/ItsAbderrahimEl/Cybersecurity-Writeups/tree/main/Machines',
+        url: 'https://itsabderrahimel.github.io/Cybersecurity-Writeups/',
     },
     {
         id: 5,
@@ -38,7 +45,7 @@ export let Projects: Project[] = [
         description: `
             A Laravel-based guessing game designed as a hard CTF challenge demonstrating second-order SQL injection risks, emphasizing secure query handling and safe data persistence.
         `,
-        url: 'https://itsabderrahimel.github.io/GuessRoyalGame_CTF/',
+        url: 'https://itsabderrahimel.github.io/Web-Security-Challenges/',
     },
     {
         id: 3,
