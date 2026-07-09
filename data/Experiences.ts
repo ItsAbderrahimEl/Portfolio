@@ -23,7 +23,7 @@ export let experiences: Experience[] = [
             'Discovered 30 vulnerabilities, including 12 Critical and 11 High severity findings, impacting VPN management interfaces, network infrastructure, web applications, default credentials, and outdated software.',
             'Performed asset discovery, attack surface mapping, vulnerability validation, and risk assessment using a methodology aligned with real-world penetration testing engagements.',
             'Submitted a detailed responsible disclosure report following multiple documented outreach attempts over a two-month period.',
-            'A redacted version of the report is available for review — accessible <a target="_blank" class="underline font-bold text-green-200" href="/Redacted Independent Security Assessment.pdf">here</a>.',
+            'A redacted version of the report is available for review — <a target="_blank" class="underline font-bold text-green-200" href="/Redacted Independent Security Assessment.pdf">here</a>.',
         ],
         has_overview: true,
         overview: 'This engagement gave me hands-on experience with real production infrastructure — a hosting provider, where the blast radius of any vulnerability extends far beyond the company to every client and web application they serve. It also led me to build something lasting: a custom Obsidian script that spins up a structured penetration testing vault, automatically linking all assets discovered during an engagement — a tool I now use as a core part of my methodology — that you can found <a target="_blank" class="underline font-bold text-green-200" href="https://github.com/ItsAbderrahimEl/obsidian-pentest-vault">here</a>.'
@@ -75,7 +75,7 @@ export let experiences: Experience[] = [
         duration: "Sep 2023 - Present",
         type: "Practice",
         description: [
-            "Achieved Master rank (#73) on Hack The Box through consistent performance across offensive security challenges and labs.",
+            "Achieved Master rank (#74) on Hack The Box through consistent performance across offensive security challenges and labs.",
             "Successfully compromised 330+ targets spanning web applications, Linux systems, Windows environments, Active Directory, and network infrastructure.",
             "Developed hands-on expertise in enumeration, exploitation, privilege escalation, web application security, and post-exploitation techniques through realistic attack simulations."
         ]
@@ -84,7 +84,7 @@ export let experiences: Experience[] = [
         id: 1,
         role: "Laravel Web Developer",
         company_name: "Soft Cactus",
-        company_url: "https://softcactus.com/",
+        company_url: "https://softcactus.ma/",
         duration: "Jun 2023 - Jul 2023",
         type: "Internship",
         description: [

@@ -4,13 +4,13 @@ export type Skill = {
     url: string
 }
 
-export type Field = {
+export type Expertise = {
     id: number
     name: string
     skills: Skill[]
 }
 
-export let fields: Field[] = [
+export let expertises: Expertise[] = [
     {
         id: 1,
         name: "Web Development",

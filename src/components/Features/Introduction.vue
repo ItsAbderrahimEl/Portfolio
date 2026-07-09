@@ -17,9 +17,7 @@
 
         <p class="text-lg md:text-2xl text-center md:text-left">{{ user.expertise }}</p>
 
-        <p class="mt-10 text-center  text-sm md:text-xl">{{ user.intro }}</p>
-
-        <div class="flex flex-col gap-5 md:-mb-5 md:gap-8 md:flex-row mt-5">
+        <div class="flex flex-col gap-5 md:-mb-5 md:gap-8 md:flex-row mt-22">
             <PrimaryLink title="Resume" href="/CV - Abderrahim El Ouariachi.pdf" class="text-black">
                 <template #icon>
                     <Resume class="size-5 fill-transparent stroke-black"/>

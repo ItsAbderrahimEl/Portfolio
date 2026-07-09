@@ -4,7 +4,7 @@
 >
     import Introduction from "@/components/Features/Introduction.vue";
     import About from "@/components/Features/About/About.vue";
-    import Fields from "@/components/Features/Fields.vue";
+    import Expertise from "@/components/Features/Expertise.vue";
     import Contact from "@/components/Features/Contact.vue";
     import Projects from "@/components/Features/Projects/Projects.vue";
     import {definePerson} from "@vueuse/schema-org";
@@ -101,7 +101,7 @@
 
         <Education />
 
-        <Fields />
+        <Expertise />
 
         <Contact />
 
