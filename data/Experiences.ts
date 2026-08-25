@@ -30,7 +30,7 @@ export let experiences: Experience[] = [
     },
     {
         id: 5,
-        role: "DevSecOps Engineer",
+        role: "DevSecOps",
         company_name: "WebCom",
         company_url: "https://webcom.ma/",
         duration: "Mar 2026 - Apr 2026",
