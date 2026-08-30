@@ -12,6 +12,19 @@ export interface Experience {
 
 export let experiences: Experience[] = [
     {
+        id: 7,
+        role: 'Penetration Testing',
+        company_name: 'Marsa Maroc',
+        company_url: 'https://www.marsamaroc.co.ma/',
+        duration: 'Aug 2026 - Present',
+        type: 'Internship',
+        description: [
+            'Conducted an internal network penetration test on a Marsa Maroc station, identifying critical vulnerabilities in network equipment and infrastructure.',
+            'Reduced internal network attack surface by 40% through targeted vulnerability identification and remediation guidance.',
+            'Authored a detailed security report documenting critical findings, risk severity, and short-term and long-term remediation procedures for the company.',
+        ]
+    },
+    {
         id: 6,
         role: 'External Attack Surface Assessment',
         company_name: 'Confidential',
