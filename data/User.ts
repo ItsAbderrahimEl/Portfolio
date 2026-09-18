@@ -13,7 +13,7 @@ export let user: User = {
     'lastname': 'El Ouariachi',
     'expertise': 'Penetration Tester & Full-Stack Laravel Developer',
     'whyboth': 'Most developers write code they can\'t secure. Most pentesters break systems they don\'t know how to build. I do both.',
-    'biography': `<p>I'm a security person who likes adventure, challenges, and loves thinking in systems. Starting from a young age, I became fascinated by cybersecurity and the power that it gives.</p>
-<p>Growing up, my thinking in systems made me love programming so I can create real things while my darker side helps me keep everything I build secure at the same time that allows me to analyze other people's work (systems). </p>
+    'biography': `<p>I'm a security person who thrives on adventure, challenge, and thinking in systems. From a young age, I became fascinated by cybersecurity and the sense of control it gives.</p>
+<p>That same systems-thinking is what drew me to programming — I love building real things. But my offensive side is what keeps me sharp: it pushes me to secure everything I build, and to break down other people's systems just as easily.</p>
 <p>I live in Morocco, and I welcome any opportunity that values development and security alike.</p>`
 }
