@@ -11,28 +11,34 @@
 </script>
 
 <template>
-    <Container class=" text-text md:mt-0 md:h-screen flex items-center mt-20 md:justify-center">
-        <p class="text-5xl text-center md:text-7xl font-bold font-quantico">{{ user.firstname }} <span
-            class="green-gradient">{{ user.lastname }}</span> </p>
+    <Container class=" text-text md:mt-0 md:h-screen md:w-screen flex items-center mt-20 md:justify-center">
+        <p class="text-xl text-center md:text-8xl font-bold font-quantico">
+            {{ user.firstname }} <span class="green-gradient">{{ user.lastname }}</span>
+        </p>
 
         <p class="text-lg md:text-2xl text-center md:text-left">{{ user.expertise }}</p>
 
-        <div class="flex flex-col gap-5 md:-mb-5 md:gap-8 md:flex-row mt-22">
-            <PrimaryLink title="Resume" href="/CV - Abderrahim El Ouariachi.pdf" class="text-black">
-                <template #icon>
-                    <Resume class="size-5 fill-transparent stroke-black"/>
-                </template>
+        <div class="flex flex-col items-center mt-10">
+            <p class="text-md mb-10 font-bold">{{ user.slogan }}</p>
+            <div class="flex flex-col gap-5 md:-mb-5 md:gap-8 md:flex-row">
+                <PrimaryLink title="Resume" href="/CV - Abderrahim El Ouariachi.pdf" class="text-black">
+                    <template #icon>
+                        <Resume class="size-5 fill-transparent stroke-black"/>
+                    </template>
 
-                Resume
-            </PrimaryLink>
+                    Resume
+                </PrimaryLink>
 
-            <SecondaryLink title="Github Account" href="https://github.com/ItsAbderrahimEl">
-                <template #icon>
-                    <GitHub class="size-5 fill-transparent stroke-white"/>
-                </template>
+                <SecondaryLink title="Github Account" href="https://github.com/ItsAbderrahimEl">
+                    <template #icon>
+                        <GitHub class="size-5 fill-transparent stroke-white"/>
+                    </template>
 
-                GitHub
-            </SecondaryLink>
+                    GitHub
+                </SecondaryLink>
+            </div>
         </div>
+
+
     </Container>
 </template>
