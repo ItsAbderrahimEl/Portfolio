@@ -21,24 +21,30 @@
         <div class="flex flex-col items-center mt-10">
             <p class="text-md mb-10 font-bold">{{ user.slogan }}</p>
             <div class="flex flex-col gap-5 md:-mb-5 md:gap-8 md:flex-row">
-                <PrimaryLink title="Resume" href="/CV - Abderrahim El Ouariachi.pdf" class="text-black">
+                <PrimaryLink
+                    title="Resume"
+                    href="/CV - Abderrahim El Ouariachi.pdf"
+                    class="text-black"
+                >
                     <template #icon>
-                        <Resume class="size-5 fill-transparent stroke-black"/>
+                        <Resume class="size-5 fill-transparent stroke-black" />
                     </template>
 
                     Resume
                 </PrimaryLink>
 
-                <SecondaryLink title="Github Account" href="https://github.com/ItsAbderrahimEl">
+                <SecondaryLink
+                    title="Github Account"
+                    href="https://github.com/ItsAbderrahimEl"
+                >
                     <template #icon>
-                        <GitHub class="size-5 fill-transparent stroke-white"/>
+                        <GitHub class="size-5 fill-transparent stroke-white" />
                     </template>
 
                     GitHub
                 </SecondaryLink>
             </div>
         </div>
-
 
     </Container>
 </template>
