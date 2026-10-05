@@ -1,20 +1,30 @@
-<script
-    setup
-    lang="ts"
->
-   defineProps<{
-       title: string,
-       content: string
-   }>()
+<script setup lang="ts">
+import { ArrowDown } from "@lucide/vue";
 
+defineProps<{
+  title: string;
+  content: string;
+}>();
+
+const showNote = defineModel<boolean>({ default: false });
 </script>
 
 <template>
-<div class="border-l-4 bg-secondary/10 border border-green-200 mt-5 p-5 rounded-lg">
+  <div
+    class="mt-5 rounded-lg border border-l-4 border-green-200 bg-secondary/10 p-5"
+  >
+    <div class="flex justify-between">
+      <h5 class="text text-lg font-bold text-white">
+        {{ title }}
+      </h5>
+      <div class="hover:cursor-pointer" @click="showNote = !showNote">
+        <ArrowDown
+          :class="{ 'rotate-180 transition-all duration-500': showNote }"
+          color="#fff"
+        />
+      </div>
+    </div>
 
-    <h5 class="text-white font-bold text text-lg mb-5">{{ title }}</h5>
-
-    <p v-html="content"></p>
-
-</div>
+    <p v-show="showNote" class="mt-5" v-html="content" />
+  </div>
 </template>
