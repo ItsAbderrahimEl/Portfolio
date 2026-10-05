@@ -19,7 +19,10 @@
     "vue": "^3.5.24"
   },
   "lint-staged": {
-    "*.{js,ts,vue}": "eslint --fix",
+    "*.{js,ts,vue}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
     "*.{css,md,json}": "prettier --write"
   },
   "devDependencies": {
@@ -32,6 +35,8 @@
     "globals": "^17.13.0",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
+    "prettier": "^3.9.9",
+    "prettier-plugin-tailwindcss": "^0.8.1",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.71.0",
     "vite": "^7.2.4",
