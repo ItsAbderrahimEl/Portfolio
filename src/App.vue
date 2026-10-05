@@ -80,31 +80,39 @@
 </script>
 
 <template class="relative">
-    <AppHeader />
+  <AppHeader />
 
-    <Title id="Home" />
+  <Title id="Home" />
 
-    <div class="bg-base relative text-secondary-text  space-y-20 p-5 pb-0md:space-y-30 md:flex md:flex-col md:items-center md:justify-center overflow-hidden">
-        <TopGlow />
+  <div class="bg-base relative text-secondary-text  space-y-20 p-5 pb-0md:space-y-30 md:flex md:flex-col md:items-center md:justify-center overflow-hidden">
+    <TopGlow />
 
-        <template v-for="glow in Glows" :key="glow.id">
-            <CoolGlow :x_position="glow.x_position" :y_position="glow.y_position"/>
-        </template>
+    <template
+      v-for="glow in Glows"
+      :key="glow.id"
+    >
+      <CoolGlow
+        :x_position="glow.x_position"
+        :y_position="glow.y_position"
+      />
+    </template>
 
-        <Introduction />
 
-        <About />
 
-        <Experiences />
+    <Introduction />
 
-        <Projects />
+    <About />
 
-        <Education />
+    <Experiences />
 
-        <Expertise />
+    <Projects />
 
-        <Contact />
+    <Education />
 
-        <AppFooter />
-    </div>
+    <Expertise />
+
+    <Contact />
+
+    <AppFooter />
+  </div>
 </template>
