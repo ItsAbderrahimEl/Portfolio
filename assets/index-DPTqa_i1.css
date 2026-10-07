@@ -524,9 +524,6 @@
   .rotate-90 {
     rotate: 90deg;
   }
-  .rotate-180 {
-    rotate: 180deg;
-  }
   .animate-pulse {
     animation: var(--animate-pulse);
   }
@@ -971,14 +968,6 @@
       content-visibility,
       overlay,
       pointer-events;
-    transition-timing-function: var(
-      --tw-ease,
-      var(--default-transition-timing-function)
-    );
-    transition-duration: var(--tw-duration, var(--default-transition-duration));
-  }
-  .transition-all {
-    transition-property: all;
     transition-timing-function: var(
       --tw-ease,
       var(--default-transition-timing-function)
