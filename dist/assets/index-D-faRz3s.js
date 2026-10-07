@@ -4129,7 +4129,7 @@ const dt = nt(Il, [["render", Rl]]),
   Ll = {
     target: "_blank",
     class:
-      "flex items-center hover:cursor-pointer gap-x-2 px-4 py-3 rounded-lg bg-green-200 hover:shadow-xl",
+      "flex items-center gap-x-2 rounded-lg bg-green-200 px-4 py-3 hover:cursor-pointer hover:shadow-xl",
   };
 function Dl(e, t) {
   return (T(), M("a", Ll, [et(e.$slots, "icon"), et(e.$slots, "default")]));
@@ -4161,7 +4161,7 @@ const Vl = nt(Hl, [["render", Bl]]),
   zl = {
     target: "_blank",
     class:
-      "flex border-box hover:border-green-400 hover:cursor-pointer items-center gap-x-2 px-4 py-3 rounded-lg border text-secondary-text border-green-200",
+      "border-box flex items-center gap-x-2 rounded-lg border border-green-200 px-4 py-3 text-secondary-text hover:cursor-pointer hover:border-green-400",
   };
 function Kl(e, t) {
   return (T(), M("a", zl, [et(e.$slots, "icon"), et(e.$slots, "default")]));
@@ -4190,12 +4190,17 @@ const oi = nt(Wl, [["render", Kl]]),
       );
     },
   }),
-  Gl = { class: "text-center font-quantico text-xl font-bold md:text-8xl" },
+  Gl = {
+    class:
+      "text-center -mt-15 md:mt-0 font-quantico text-4xl font-bold md:text-8xl",
+  },
   Jl = { class: "green-gradient" },
   Yl = { class: "text-center text-lg md:text-left md:text-2xl" },
   Zl = { class: "mt-20 flex flex-col items-center" },
-  Xl = { class: "text-md mb-10 font-bold" },
-  Ql = { class: "flex flex-col gap-5 md:-mb-5 md:flex-row md:gap-8" },
+  Xl = { class: "text-md text-center mb-10 font-bold" },
+  Ql = {
+    class: "flex flex-col gap-5 sm:flex-row md:-mb-5 md:flex-row md:gap-8",
+  },
   ec = X({
     __name: "Introduction",
     setup(e) {
@@ -5251,7 +5256,7 @@ const fa = {
       company_url: "#",
       has_overview: !0,
       overview:
-        'This engagement gave me hands-on experience with real production infrastructure — a hosting provider, where the blast radius of any vulnerability extends far beyond the company to every client and web application they serve. It also led me to build something lasting: a custom Obsidian script that spins up a structured penetration testing vault, automatically linking all assets discovered during an engagement — a tool I now use as a core part of my methodology — that you can found <a target="_blank" class="underline font-bold text-green-200" href="https://github.com/ItsAbderrahimEl/obsidian-pentest-vault">here</a>.',
+        'This engagement gave me hands-on experience with real production infrastructure — a hosting provider, where the blast radius of any vulnerability extends far beyond the company to every client and web application they serve. <span class="font-bold">It also led me to build something lasting</span>: a custom Obsidian script that spins up a structured penetration testing vault, automatically linking all assets discovered during an engagement — a tool I now use as a core part of my methodology — that you can found <a target="_blank" class="underline font-bold text-green-200" href="https://github.com/ItsAbderrahimEl/obsidian-pentest-vault">here</a>.',
     },
     {
       id: 5,
