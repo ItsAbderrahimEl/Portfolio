@@ -1,17 +1,11 @@
-<script
-    setup
-    lang="ts"
->
-    defineProps<{
-        href: string
-    }>()
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-    <a target="_blank"
-       class="flex border-box hover:border-green-400 hover:cursor-pointer items-center gap-x-2 px-4 py-3 rounded-lg border text-secondary-text border-green-200">
-        <slot name="icon"/>
-        <slot />
-    </a>
+  <a
+    target="_blank"
+    class="border-box flex items-center gap-x-2 rounded-lg border border-green-200 px-4 py-3 text-secondary-text hover:cursor-pointer hover:border-green-400"
+  >
+    <slot name="icon" />
+    <slot />
+  </a>
 </template>
