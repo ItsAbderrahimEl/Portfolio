@@ -4192,12 +4192,12 @@ const oi = nt(Wl, [["render", Kl]]),
   }),
   Gl = {
     class:
-      "text-center -mt-15 md:mt-0 font-quantico text-4xl font-bold md:text-8xl",
+      "-mt-15 text-center font-quantico text-4xl font-bold md:mt-0 md:text-8xl",
   },
   Jl = { class: "green-gradient" },
   Yl = { class: "text-center text-lg md:text-left md:text-2xl" },
   Zl = { class: "mt-20 flex flex-col items-center" },
-  Xl = { class: "text-md text-center mb-10 font-bold" },
+  Xl = { class: "text-md mb-10 text-center font-bold" },
   Ql = {
     class: "flex flex-col gap-5 sm:flex-row md:-mb-5 md:flex-row md:gap-8",
   },
