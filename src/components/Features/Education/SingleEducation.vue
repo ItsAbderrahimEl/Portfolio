@@ -1,51 +1,51 @@
-<script
-    setup
-    lang="ts"
->
-    import type {Education} from "../../../../data/Education.ts";
-    import School from "@/components/Shared/Icons/School.vue";
-    import Triangle from "@/components/Shared/Icons/Triangle.vue";
+<script setup lang="ts">
+import type { Education } from "../../../../data/Education.ts";
+import School from "@/components/Shared/Icons/School.vue";
+import Triangle from "@/components/Shared/Icons/Triangle.vue";
 
-    defineProps<{
-        education: Education
-    }>()
+defineProps<{
+  education: Education;
+}>();
 </script>
 
 <template>
-    <div class="border-1 flex gap-x-10 border-gray-800 bg-secondary/10 hover:border-green-200 rounded-lg p-5">
-        <div class="hidden md:block bg-green-100/10 rounded-md p-2 w-fit h-fit">
-            <School class="fill-green-200 size-8" />
-        </div>
-
-        <div class="space-y-5 w-full">
-            <div class="flex justify-between items-baseline gap-x-1 w-full">
-                <div>
-                    <h5 class="text-white text-xl font-bold">
-                        {{ education.studied }}
-                    </h5>
-                    <a
-                        :href="education.site"
-                        target="_blank"
-                        class="text-sm text-green-200"
-                    >
-                        {{ education.institution }}
-                    </a>
-                </div>
-
-                <span class="text-green-200 text-sm">
-            {{ education.duration }}
-        </span>
-            </div>
-
-            <ul class="space-y-2 ">
-                <li
-                    class="flex gap-x-1 "
-                    v-for="description in education.description"
-                >
-                    <Triangle class="stroke-green-200 size-3 rotate-90 mt-1" />
-                    <span class="text-sm w-full">{{ description }}</span>
-                </li>
-            </ul>
-        </div>
+  <div
+    class="flex max-w-400 gap-x-10 rounded-lg border border-gray-800 bg-secondary/10 p-5 hover:border-green-200"
+  >
+    <div class="hidden h-fit w-fit rounded-md bg-green-100/10 p-2 md:block">
+      <School class="size-8 fill-green-200" />
     </div>
+
+    <div class="w-full space-y-5">
+      <div class="flex w-full items-baseline justify-between gap-x-1">
+        <div>
+          <h5 class="text-xl font-bold text-white">
+            {{ education.studied }}
+          </h5>
+          <a
+            :href="education.site"
+            target="_blank"
+            class="text-sm text-green-200"
+          >
+            {{ education.institution }}
+          </a>
+        </div>
+
+        <span class="text-sm text-green-200">
+          {{ education.duration }}
+        </span>
+      </div>
+
+      <ul class="space-y-2">
+        <li
+          v-for="description in education.description"
+          :key="description"
+          class="flex gap-x-1"
+        >
+          <Triangle class="mt-1 size-3 rotate-90 stroke-green-200" />
+          <span class="w-full text-sm">{{ description }}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
 </template>

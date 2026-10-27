@@ -415,34 +415,6 @@
   .col-span-1 {
     grid-column: span 1 / span 1;
   }
-  .container {
-    width: 100%;
-  }
-  @media (min-width: 40rem) {
-    .container {
-      max-width: 40rem;
-    }
-  }
-  @media (min-width: 48rem) {
-    .container {
-      max-width: 48rem;
-    }
-  }
-  @media (min-width: 64rem) {
-    .container {
-      max-width: 64rem;
-    }
-  }
-  @media (min-width: 80rem) {
-    .container {
-      max-width: 80rem;
-    }
-  }
-  @media (min-width: 96rem) {
-    .container {
-      max-width: 96rem;
-    }
-  }
   .-mt-15 {
     margin-top: calc(var(--spacing) * -15);
   }
@@ -525,6 +497,9 @@
   }
   .w-full {
     width: 100%;
+  }
+  .max-w-400 {
+    max-width: calc(var(--spacing) * 400);
   }
   .rotate-90 {
     rotate: 90deg;
@@ -636,6 +611,9 @@
   }
   .overflow-scroll {
     overflow: scroll;
+  }
+  .overflow-visible {
+    overflow: visible;
   }
   .overflow-x-scroll {
     overflow-x: scroll;
@@ -983,6 +961,14 @@
     );
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
+  .transition-all {
+    transition-property: all;
+    transition-timing-function: var(
+      --tw-ease,
+      var(--default-transition-timing-function)
+    );
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
   .transition-colors {
     transition-property:
       color, background-color, border-color, outline-color,
@@ -1036,6 +1022,12 @@
     }
     .hover\:border-green-400:hover {
       border-color: var(--color-green-400);
+    }
+    .hover\:bg-green-300:hover {
+      background-color: var(--color-green-300);
+    }
+    .hover\:text-green-100:hover {
+      color: var(--color-green-100);
     }
     .hover\:text-green-200:hover {
       color: var(--color-green-200);
@@ -1096,9 +1088,6 @@
     }
     .md\:max-w-2\/3 {
       max-width: 66.6667%;
-    }
-    .md\:max-w-90 {
-      max-width: calc(var(--spacing) * 90);
     }
     .md\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
