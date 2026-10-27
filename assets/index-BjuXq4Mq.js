@@ -4129,7 +4129,7 @@ const dt = nt(Il, [["render", Rl]]),
   Ll = {
     target: "_blank",
     class:
-      "flex items-center gap-x-2 rounded-lg bg-green-200 hover:bg-green-300 hover:text-green-100 transition-colors duration-300 px-4 py-3 hover:cursor-pointer hover:shadow-xl",
+      "flex items-center gap-x-2 rounded-lg bg-green-200 px-4 py-3 transition-colors duration-300 hover:cursor-pointer hover:bg-green-200/80 hover:shadow-xl",
   };
 function Dl(e, t) {
   return (T(), M("a", Ll, [et(e.$slots, "icon"), et(e.$slots, "default")]));
@@ -4161,7 +4161,7 @@ const Vl = nt(Hl, [["render", Bl]]),
   zl = {
     target: "_blank",
     class:
-      "border-box flex items-center gap-x-2 rounded-lg border border-green-200 px-4 py-3 text-secondary-text hover:cursor-pointer hover:border-green-400 transition-all duration-300",
+      "border-box flex items-center gap-x-2 rounded-lg border border-green-200 px-4 py-3 text-secondary-text transition-all duration-300 hover:cursor-pointer hover:border-green-400",
   };
 function Kl(e, t) {
   return (T(), M("a", zl, [et(e.$slots, "icon"), et(e.$slots, "default")]));
@@ -4919,12 +4919,12 @@ const Xc = {
   }),
   ea = {
     class:
-      "border border-gray-800 bg-secondary/10 hover:border-green-200 rounded-lg p-5 flex flex-col gap-y-5 group",
+      "group flex flex-col gap-y-5 rounded-lg border border-gray-800 bg-secondary/10 p-5 hover:border-green-200",
   },
   ta = ["src", "alt"],
   na = { class: "flex flex-col bg-black/10" },
   sa = ["href"],
-  ra = { class: "text-white text-xl font-bold" },
+  ra = { class: "text-xl font-bold text-white" },
   ia = { class: "text-sm" },
   oa = X({
     __name: "SingleProject",
@@ -4939,7 +4939,7 @@ const Xc = {
               src: e.project.pattern,
               alt: e.project.name,
               class:
-                "w-full h-60 rounded-xl object-cover group-hover:scale-105 transition-transform duration-500",
+                "h-60 w-full rounded-xl object-cover transition-transform duration-500 group-hover:scale-105",
             },
             null,
             8,
@@ -4951,11 +4951,11 @@ const Xc = {
               {
                 href: e.project.url,
                 target: "_blank",
-                class: "flex justify-between items-center mb-1",
+                class: "mb-1 flex items-center justify-between",
               },
               [
                 w("h5", ra, Y(e.project.name), 1),
-                E(Qc, { class: "stroke-green-200 size-5" }),
+                E(Qc, { class: "size-5 stroke-green-200" }),
               ],
               8,
               sa,
@@ -5107,16 +5107,16 @@ const fa = {
   }),
   pa = {
     class:
-      "border flex gap-x-10 border-gray-800 bg-secondary/10 hover:border-green-200 rounded-lg p-5 max-w-400",
+      "flex max-w-400 gap-x-10 rounded-lg border border-gray-800 bg-secondary/10 p-5 hover:border-green-200",
   },
-  ha = { class: "hidden md:block bg-green-100/10 rounded-md p-2 w-fit h-fit" },
-  ga = { class: "space-y-5 w-full" },
-  ma = { class: "flex justify-between items-baseline gap-x-1 w-full" },
-  _a = { class: "text-white text-xl font-bold" },
+  ha = { class: "hidden h-fit w-fit rounded-md bg-green-100/10 p-2 md:block" },
+  ga = { class: "w-full space-y-5" },
+  ma = { class: "flex w-full items-baseline justify-between gap-x-1" },
+  _a = { class: "text-xl font-bold text-white" },
   ba = ["href"],
-  ya = { class: "text-green-200 text-sm" },
+  ya = { class: "text-sm text-green-200" },
   xa = { class: "space-y-2" },
-  va = { class: "text-sm w-full" },
+  va = { class: "w-full text-sm" },
   wa = X({
     __name: "SingleEducation",
     props: { education: {} },
@@ -5124,7 +5124,7 @@ const fa = {
       return (t, n) => (
         T(),
         M("div", pa, [
-          w("div", ha, [E(ua, { class: "fill-green-200 size-8" })]),
+          w("div", ha, [E(ua, { class: "size-8 fill-green-200" })]),
           w("div", ga, [
             w("div", ma, [
               w("div", null, [
@@ -5152,9 +5152,9 @@ const fa = {
                   e.education.description,
                   (s) => (
                     T(),
-                    M("li", { class: "flex gap-x-1", key: s }, [
+                    M("li", { key: s, class: "flex gap-x-1" }, [
                       E(ci, {
-                        class: "stroke-green-200 size-3 rotate-90 mt-1",
+                        class: "mt-1 size-3 rotate-90 stroke-green-200",
                       }),
                       w("span", va, Y(s), 1),
                     ])
@@ -5685,10 +5685,7 @@ const Za = nt(qa, [["render", Ya]]),
     },
   }),
   Qa = {},
-  ef = {
-    class:
-      "cool-top-div w-full h-200 absolute top-0 left-0 z-0 overflow-visible",
-  };
+  ef = { class: "cool-top-div absolute top-0 left-0 z-0 w-full h-250" };
 function tf(e, t) {
   return (T(), M("div", ef));
 }
