@@ -4129,7 +4129,7 @@ const dt = nt(Il, [["render", Rl]]),
   Ll = {
     target: "_blank",
     class:
-      "flex items-center gap-x-2 rounded-lg bg-green-200 px-4 py-3 hover:cursor-pointer hover:shadow-xl",
+      "flex items-center gap-x-2 rounded-lg bg-green-200 hover:bg-green-300 hover:text-green-100 transition-colors duration-300 px-4 py-3 hover:cursor-pointer hover:shadow-xl",
   };
 function Dl(e, t) {
   return (T(), M("a", Ll, [et(e.$slots, "icon"), et(e.$slots, "default")]));
@@ -4161,7 +4161,7 @@ const Vl = nt(Hl, [["render", Bl]]),
   zl = {
     target: "_blank",
     class:
-      "border-box flex items-center gap-x-2 rounded-lg border border-green-200 px-4 py-3 text-secondary-text hover:cursor-pointer hover:border-green-400",
+      "border-box flex items-center gap-x-2 rounded-lg border border-green-200 px-4 py-3 text-secondary-text hover:cursor-pointer hover:border-green-400 transition-all duration-300",
   };
 function Kl(e, t) {
   return (T(), M("a", zl, [et(e.$slots, "icon"), et(e.$slots, "default")]));
@@ -4939,7 +4939,7 @@ const Xc = {
               src: e.project.pattern,
               alt: e.project.name,
               class:
-                "w-full h-60 md:max-w-90 rounded-xl object-cover group-hover:scale-105 transition-transform duration-500",
+                "w-full h-60 rounded-xl object-cover group-hover:scale-105 transition-transform duration-500",
             },
             null,
             8,
@@ -5107,7 +5107,7 @@ const fa = {
   }),
   pa = {
     class:
-      "border-1 flex gap-x-10 border-gray-800 bg-secondary/10 hover:border-green-200 rounded-lg p-5",
+      "border flex gap-x-10 border-gray-800 bg-secondary/10 hover:border-green-200 rounded-lg p-5 max-w-400",
   },
   ha = { class: "hidden md:block bg-green-100/10 rounded-md p-2 w-fit h-fit" },
   ga = { class: "space-y-5 w-full" },
@@ -5116,9 +5116,8 @@ const fa = {
   ba = ["href"],
   ya = { class: "text-green-200 text-sm" },
   xa = { class: "space-y-2" },
-  va = { class: "flex gap-x-1" },
-  wa = { class: "text-sm w-full" },
-  Sa = X({
+  va = { class: "text-sm w-full" },
+  wa = X({
     __name: "SingleEducation",
     props: { education: {} },
     setup(e) {
@@ -5153,15 +5152,15 @@ const fa = {
                   e.education.description,
                   (s) => (
                     T(),
-                    M("li", va, [
+                    M("li", { class: "flex gap-x-1", key: s }, [
                       E(ci, {
                         class: "stroke-green-200 size-3 rotate-90 mt-1",
                       }),
-                      w("span", wa, Y(s), 1),
+                      w("span", va, Y(s), 1),
                     ])
                   ),
                 ),
-                256,
+                128,
               )),
             ]),
           ]),
@@ -5169,8 +5168,8 @@ const fa = {
       );
     },
   }),
-  Ca = { class: "w-full space-y-10 md:space-y-15 md:text-lg md:p-5" },
-  Ta = X({
+  Sa = { class: "w-full space-y-10 md:space-y-15 md:text-lg md:p-5" },
+  Ca = X({
     __name: "Education",
     setup(e) {
       return (t, n) => (
@@ -5182,7 +5181,7 @@ const fa = {
               normal: "Where I've",
               colored: "Learned",
             }),
-            w("div", Ca, [
+            w("div", Sa, [
               (T(!0),
               M(
                 G,
@@ -5191,7 +5190,7 @@ const fa = {
                   oe(aa),
                   (s) => (
                     T(),
-                    ge(Sa, { key: s.id, education: s }, null, 8, ["education"])
+                    ge(wa, { key: s.id, education: s }, null, 8, ["education"])
                   ),
                 ),
                 128,
@@ -5208,7 +5207,7 @@ const fa = {
       );
     },
   }),
-  Aa = [
+  Ta = [
     {
       id: 7,
       company_name: "Marsa Maroc",
@@ -5337,18 +5336,18 @@ const fa = {
       ],
     },
   ],
-  $a = {
+  Aa = {
     xmlns: "http://www.w3.org/2000/svg",
     width: "24",
     height: "24",
     viewBox: "0 0 24 24",
   },
-  Pa = X({
+  $a = X({
     __name: "Bag",
     setup(e) {
       return (t, n) => (
         T(),
-        M("svg", $a, [
+        M("svg", Aa, [
           ...(n[0] ||
             (n[0] = [
               w(
@@ -5366,32 +5365,32 @@ const fa = {
       );
     },
   }),
-  Ea = {
+  Pa = {
     class:
       "flex flex-col space-y-5 rounded-lg border border-gray-800 bg-secondary/10 p-5 pb-10 hover:border-green-200",
   },
-  Oa = { class: "flex items-center gap-x-1 text-green-200" },
-  ka = ["href"],
-  Ma = { class: "ml-5 space-y-10" },
-  Ia = {
+  Ea = { class: "flex items-center gap-x-1 text-green-200" },
+  Oa = ["href"],
+  ka = { class: "ml-5 space-y-10" },
+  Ma = {
     key: 0,
     class:
       "absolute top-2 -left-7.75 size-3 rounded-full bg-green-200 ring-4 ring-green-200/20",
   },
-  ja = { class: "text-lg font-bold text-white" },
-  Ra = { class: "text-sm" },
-  Fa = { class: "mt-5 space-y-2" },
-  La = ["innerHTML"],
-  Da = X({
+  Ia = { class: "text-lg font-bold text-white" },
+  ja = { class: "text-sm" },
+  Ra = { class: "mt-5 space-y-2" },
+  Fa = ["innerHTML"],
+  La = X({
     __name: "Roles",
     props: { experience: {} },
     setup(e) {
       let n = e.experience.roles.length > 1;
       return (s, r) => (
         T(),
-        M("div", Ea, [
-          w("span", Oa, [
-            E(Pa, { class: "fill-green-200" }),
+        M("div", Pa, [
+          w("span", Ea, [
+            E($a, { class: "fill-green-200" }),
             w(
               "a",
               {
@@ -5401,10 +5400,10 @@ const fa = {
               },
               Y(e.experience.company_name),
               9,
-              ka,
+              Oa,
             ),
           ]),
-          w("div", Ma, [
+          w("div", ka, [
             w(
               "div",
               {
@@ -5426,14 +5425,14 @@ const fa = {
                         "div",
                         { key: i.name, class: "relative flex flex-col" },
                         [
-                          oe(n) ? (T(), M("span", Ia)) : Ds("", !0),
-                          w("h5", ja, Y(i.name), 1),
-                          w("div", Ra, [
+                          oe(n) ? (T(), M("span", Ma)) : Ds("", !0),
+                          w("h5", Ia, Y(i.name), 1),
+                          w("div", ja, [
                             w("span", null, Y(i.type), 1),
                             r[0] || (r[0] = ae(" — ", -1)),
                             w("span", null, Y(i.duration), 1),
                           ]),
-                          w("ul", Fa, [
+                          w("ul", Ra, [
                             (T(!0),
                             M(
                               G,
@@ -5455,7 +5454,7 @@ const fa = {
                                       },
                                       null,
                                       8,
-                                      La,
+                                      Fa,
                                     ),
                                   ])
                                 ),
@@ -5492,8 +5491,8 @@ const fa = {
       );
     },
   }),
-  Ha = { class: "space-y-10" },
-  Na = X({
+  Da = { class: "space-y-10" },
+  Ha = X({
     __name: "Experience",
     setup(e) {
       return (t, n) => (
@@ -5501,16 +5500,16 @@ const fa = {
         ge(dt, null, {
           default: J(() => [
             E(pt, { id: "Work", normal: "Work and", colored: "Engagements" }),
-            w("div", Ha, [
+            w("div", Da, [
               (T(!0),
               M(
                 G,
                 null,
                 xe(
-                  oe(Aa),
+                  oe(Ta),
                   (s) => (
                     T(),
-                    ge(Da, { key: s.id, experience: s }, null, 8, [
+                    ge(La, { key: s.id, experience: s }, null, 8, [
                       "experience",
                     ])
                   ),
@@ -5533,22 +5532,22 @@ const fa = {
     { name: "Expertise" },
     { name: "Contact" },
   ],
-  Ba = {
+  Na = {
     class:
       "hidden md:fixed top-5 left-0 md:flex items-center justify-center w-full px-5 py-3 z-20",
   },
-  Va = {
+  Ba = {
     class:
       "flex gap-x-5 w-fit bg-secondary/10 border border-gray-800 px-4 py-3 shadow-lg rounded-lg backdrop-blur-xs",
   },
-  Wa = ["href"],
-  za = { class: "md:hidden fixed bottom-0 left-0 w-full z-20" },
-  Ka = {
+  Va = ["href"],
+  Wa = { class: "md:hidden fixed bottom-0 left-0 w-full z-20" },
+  za = {
     class:
       "flex h-15 gap-x-5 w-full items-center overflow-scroll bg-secondary/10 border border-gray-800 px-5 py-3 shadow-lg backdrop-blur-lg",
   },
-  Ua = ["href"],
-  qa = X({
+  Ka = ["href"],
+  Ua = X({
     __name: "AppHeader",
     setup(e) {
       return (t, n) => (
@@ -5557,8 +5556,8 @@ const fa = {
           G,
           null,
           [
-            w("div", Ba, [
-              w("nav", Va, [
+            w("div", Na, [
+              w("nav", Ba, [
                 (T(!0),
                 M(
                   G,
@@ -5575,7 +5574,7 @@ const fa = {
                         },
                         Y(s.name),
                         9,
-                        Wa,
+                        Va,
                       )
                     ),
                   ),
@@ -5583,8 +5582,8 @@ const fa = {
                 )),
               ]),
             ]),
-            w("div", za, [
-              w("nav", Ka, [
+            w("div", Wa, [
+              w("nav", za, [
                 (T(!0),
                 M(
                   G,
@@ -5601,7 +5600,7 @@ const fa = {
                         },
                         Y(s.name),
                         9,
-                        Ua,
+                        Ka,
                       )
                     ),
                   ),
@@ -5615,19 +5614,19 @@ const fa = {
       );
     },
   }),
-  Ga = {},
-  Ja = {
+  qa = {},
+  Ga = {
     class:
       "h-20 mb-15 md:mb-0 text-center z-30 border-t border-gray-800 w-full",
   },
-  Ya = {
+  Ja = {
     class: "px-4 py-6 flex flex-col items-center gap-2 text-xs text-gray-400",
   };
-function Za(e, t) {
+function Ya(e, t) {
   return (
     T(),
-    M("footer", Ja, [
-      w("div", Ya, [
+    M("footer", Ga, [
+      w("div", Ja, [
         w(
           "div",
           null,
@@ -5656,8 +5655,8 @@ function Za(e, t) {
     ])
   );
 }
-const Xa = nt(Ga, [["render", Za]]),
-  Qa = X({
+const Za = nt(qa, [["render", Ya]]),
+  Xa = X({
     __name: "CoolGlow",
     props: {
       color: { default: "rgba(70,130,180,0.1)" },
@@ -5685,17 +5684,20 @@ const Xa = nt(Ga, [["render", Za]]),
       );
     },
   }),
-  ef = {},
-  tf = { class: "cool-top-div w-full h-200 absolute top-0 left-0 z-0" };
-function nf(e, t) {
-  return (T(), M("div", tf));
+  Qa = {},
+  ef = {
+    class:
+      "cool-top-div w-full h-200 absolute top-0 left-0 z-0 overflow-visible",
+  };
+function tf(e, t) {
+  return (T(), M("div", ef));
 }
-const sf = nt(ef, [["render", nf]]),
-  rf = {
+const nf = nt(Qa, [["render", tf]]),
+  sf = {
     class:
       "relative space-y-20 overflow-hidden bg-base p-5 pb-0 text-secondary-text md:flex md:flex-col md:items-center md:space-y-30",
   },
-  of = X({
+  rf = X({
     __name: "App",
     setup(e) {
       let t = [
@@ -5737,10 +5739,10 @@ const sf = nt(ef, [["render", nf]]),
             G,
             null,
             [
-              E(qa),
+              E(Ua),
               E(pt, { id: "Home" }),
-              w("div", rf, [
-                E(sf),
+              w("div", sf, [
+                E(nf),
                 (T(!0),
                 M(
                   G,
@@ -5750,7 +5752,7 @@ const sf = nt(ef, [["render", nf]]),
                     (r) => (
                       T(),
                       ge(
-                        Qa,
+                        Xa,
                         {
                           key: r.id,
                           x_position: r.x_position,
@@ -5766,12 +5768,12 @@ const sf = nt(ef, [["render", nf]]),
                 )),
                 E(ec),
                 E(wc),
-                E(Na),
+                E(Ha),
                 E(ca),
-                E(Ta),
+                E(Ca),
                 E(Rc),
                 E(Vc),
-                E(Xa),
+                E(Za),
               ]),
             ],
             64,
@@ -5780,4 +5782,4 @@ const sf = nt(ef, [["render", nf]]),
       );
     },
   });
-Ol(of).mount("#app");
+Ol(rf).mount("#app");
