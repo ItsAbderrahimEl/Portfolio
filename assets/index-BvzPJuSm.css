@@ -514,9 +514,6 @@
   .h-60 {
     height: calc(var(--spacing) * 60);
   }
-  .h-200 {
-    height: calc(var(--spacing) * 200);
-  }
   .h-250 {
     height: calc(var(--spacing) * 250);
   }
@@ -642,9 +639,6 @@
   }
   .overflow-scroll {
     overflow: scroll;
-  }
-  .overflow-visible {
-    overflow: visible;
   }
   .overflow-x-scroll {
     overflow-x: scroll;
@@ -838,6 +832,10 @@
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
+  .text-5xl {
+    font-size: var(--text-5xl);
+    line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
   .text-lg {
     font-size: var(--text-lg);
@@ -1065,12 +1063,6 @@
           transparent
         );
       }
-    }
-    .hover\:bg-green-300:hover {
-      background-color: var(--color-green-300);
-    }
-    .hover\:text-green-100:hover {
-      color: var(--color-green-100);
     }
     .hover\:text-green-200:hover {
       color: var(--color-green-200);
