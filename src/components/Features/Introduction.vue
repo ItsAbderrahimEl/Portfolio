@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import { user } from "../../../data/User.ts";
 import Container from "@/components/Shared/Container.vue";
-import PrimaryLink from "@/components/Shared/PrimaryLink.vue";
 import Resume from "@/components/Shared/Icons/Resume.vue";
-import SecondaryLink from "@/components/Shared/SecondaryLink.vue";
+import Link from "@/components/Shared/Link.vue";
 import GitHub from "@/components/Shared/Icons/GitHub.vue";
 </script>
 
@@ -12,7 +11,7 @@ import GitHub from "@/components/Shared/Icons/GitHub.vue";
     class="mt-20 flex items-center text-text md:mt-0 md:h-screen md:w-screen md:justify-center"
   >
     <p
-      class="-mt-15 text-center font-quantico text-4xl font-bold md:mt-0 md:text-8xl"
+      class="-mt-15 text-center font-quantico text-5xl font-bold md:mt-0 md:text-8xl"
     >
       {{ user.firstname }}
       <span class="green-gradient">{{ user.lastname }}</span>
@@ -26,10 +25,10 @@ import GitHub from "@/components/Shared/Icons/GitHub.vue";
       <p class="text-md mb-10 text-center font-bold">
         {{ user.slogan }}
       </p>
-      <div
-        class="flex flex-col gap-5 sm:flex-row md:-mb-5 md:flex-row md:gap-8"
-      >
-        <PrimaryLink
+      <div class="flex gap-5 sm:flex-row md:-mb-5 md:flex-row md:gap-8">
+        <Link
+          type="primary"
+          target="_blank"
           title="Resume"
           href="/CV - Abderrahim El Ouariachi.pdf"
           class="text-black"
@@ -39,9 +38,11 @@ import GitHub from "@/components/Shared/Icons/GitHub.vue";
           </template>
 
           Resume
-        </PrimaryLink>
+        </Link>
 
-        <SecondaryLink
+        <Link
+          type="secondary"
+          target="_blank"
           title="Github Account"
           href="https://github.com/ItsAbderrahimEl"
         >
@@ -50,7 +51,7 @@ import GitHub from "@/components/Shared/Icons/GitHub.vue";
           </template>
 
           GitHub
-        </SecondaryLink>
+        </Link>
       </div>
     </div>
   </Container>
